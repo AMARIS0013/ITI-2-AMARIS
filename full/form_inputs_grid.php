@@ -399,37 +399,32 @@
 						<!-- Main -->
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">CONTENIDO</div> <i class="icon-menu" title="Main"></i></li>
 						<li class="nav-item">
-							<a href="index.html" class="nav-link">
+							<a href="index.php" class="nav-link active">
 								<i class="icon-home4"></i>
 								<span>
-								  INICIO
-								  </span>
-							</a>
-						</li>
-									<!--
-									<span class="d-block font-weight-normal opacity-50">No active orders</span>
+									INICIO
 								</span>
 							</a>
 						</li>
-					-->
+						
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-people"></i> <span>EMPLEADOS</span></a>
 
 							<ul class="nav nav-group-sub" data-submenu-title="Basic tables">
-								<li class="nav-item"><a href="table_basic.html" class="nav-link">TABLA DE EMPLEADOS</a></li>
-								<li class="nav-item"><a href="table_sizing.html" class="nav-link">SOLICITUD DE REGISTRO</a></li>
-								<li class="nav-item"><a href="table_borders.html" class="nav-link">EDITAR EMPLEADOS</a></li>
+								<li class="nav-item"><a href="table_basic.php" class="nav-link">TABLA DE EMPLEADOS</a></li>
+								<li class="nav-item"><a href="table_sizing.php" class="nav-link">SOLICITUD DE REGISTRO</a></li>
+								<li class="nav-item"><a href="table_borders.php" class="nav-link">EDITAR EMPLEADOS</a></li>
 								<li class="nav-item nav-item-submenu">
 									<a href="#" class="nav-link"><i class="icon-airplane2"></i> <span>VACACIONES</span></a>
 									<ul class="nav nav-group-sub">
-								<li class="nav-item"><a href="datatable_responsive.html" class="nav-link">lista</a></li>
-								<li class="nav-item"><a href="datatable_extension_buttons_flash.html" class="nav-link">Solicitar</a></li>
-								<li class="nav-item"><a href="table_styling.html" class="nav-link">Editar</a></li>
+								<li class="nav-item"><a href="datatable_responsive.php" class="nav-link">lista</a></li>
+								<li class="nav-item"><a href="datatable_extension_buttons_flash.php" class="nav-link">Solicitar</a></li>
+								<li class="nav-item"><a href="table_styling.php" class="nav-link">Editar</a></li>
 							</ul>
 						</li>
 					</ul>
 				</li>
-				<li class="nav-item nav-item-submenu">
+							<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-grid7"></i> <span>DEPARTAMENTOS</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
 								<li class="nav-item"><a href="datatable_basic.php" class="nav-link">AGREGAR</a></li>
@@ -437,17 +432,32 @@
 								<li class="nav-item"><a href="datatable_advanced.php" class="nav-link">ENLISTAR</a></li>
 							</ul>
 						</li>
-						
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-home4"></i> <span>EMPRESA</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
 								<li class="nav-item"><a href="datatable_extension_select.php" class="nav-link">LISTA</a></li>
 								<li class="nav-item"><a href="datatable_extension_row_reorder.php" class="nav-link">AGREGAR</a></li>
 								<li class="nav-item"><a href="datatable_data_sources.php" class="nav-link">MODIFICAR</a></li>
-								</ul>
+                            </ul>
 						</li>
-
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link"><i class="icon-users4"></i> <span>ALUMNOS</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Basic tables">
+								<li class="nav-item"><a href="datatable_api.php" class="nav-link">ENLISTAR</a></li>
+								<li class="nav-item"><a href="content_cards_draggable.php" class="nav-link">EDITAR</a></li>
+								<li class="nav-item"><a href="form_input_groups.php" class="nav-link">AGREGAR</a></li>
 								<li class="nav-item nav-item-submenu">
+							</ul>
+						</li>
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link"><i class="icon-brain"></i> <span>TUTORIAS</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Basic tables">
+								<li class="nav-item"><a href="handsontable_types.php" class="nav-link">LISTADO</a></li>
+								<li class="nav-item"><a href="fullcalendar_advanced.php" class="nav-link">AGREGAR</a></li>
+								<li class="nav-item nav-item-submenu">
+							</ul>
+						</li>
+                    	<li class="nav-item nav-item-submenu">
 							<a href="form_inputs_grid.php"class="nav-link"><i class="icon-grid7"></i> <span>PAGOS DE TRANSPORTE</span></a>
 							</ul>
 						</li>

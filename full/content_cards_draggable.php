@@ -8,7 +8,7 @@
 
 	<!-- Global stylesheets -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
-	<link href="../../../../global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+	<link href="global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/layout.min.css" rel="stylesheet" type="text/css">
@@ -17,17 +17,18 @@
 	<!-- /global stylesheets -->
 
 	<!-- Core JS files -->
-	<script src="../../../../global_assets/js/main/jquery.min.js"></script>
-	<script src="../../../../global_assets/js/main/bootstrap.bundle.min.js"></script>
-	<script src="../../../../global_assets/js/plugins/loaders/blockui.min.js"></script>
+	<script src="global_assets/js/main/jquery.min.js"></script>
+	<script src="global_assets/js/main/bootstrap.bundle.min.js"></script>
+	<script src="global_assets/js/plugins/loaders/blockui.min.js"></script>
 	<!-- /core JS files -->
 
 	<!-- Theme JS files -->
-	<script src="../../../../global_assets/js/plugins/tables/datatables/datatables.min.js"></script>
-	<script src="../../../../global_assets/js/plugins/forms/selects/select2.min.js"></script>
+	<script src="global_assets/js/plugins/extensions/jquery_ui/interactions.min.js"></script>
+	<script src="global_assets/js/plugins/extensions/jquery_ui/touch.min.js"></script>
+
 
 	<script src="assets/js/app.js"></script>
-	<script src="../../../../global_assets/js/demo_pages/datatables_api.js"></script>
+	<script src="global_assets/js/demo_pages/content_cards_draggable.js"></script>
 	<!-- /theme JS files -->
 
 </head>
@@ -38,7 +39,7 @@
 	<div class="navbar navbar-expand-md navbar-dark">
 		<div class="navbar-brand">
 			<a href="index.html" class="d-inline-block">
-				<img src="../../../../global_assets/images/logo_light.png" alt="">
+				<img src="global_assets/images/logo_light.png" alt="">
 			</a>
 		</div>
 
@@ -161,7 +162,7 @@
 							<ul class="media-list">
 								<li class="media">
 									<div class="mr-3">
-										<img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
 									</div>
 									<div class="media-body">
 										<a href="#" class="media-title font-weight-semibold">Jordana Ansley</a>
@@ -172,7 +173,7 @@
 
 								<li class="media">
 									<div class="mr-3">
-										<img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
 									</div>
 									<div class="media-body">
 										<a href="#" class="media-title font-weight-semibold">Will Brason</a>
@@ -183,7 +184,7 @@
 
 								<li class="media">
 									<div class="mr-3">
-										<img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
 									</div>
 									<div class="media-body">
 										<a href="#" class="media-title font-weight-semibold">Hanna Walden</a>
@@ -194,7 +195,7 @@
 
 								<li class="media">
 									<div class="mr-3">
-										<img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
 									</div>
 									<div class="media-body">
 										<a href="#" class="media-title font-weight-semibold">Dori Laperriere</a>
@@ -205,7 +206,7 @@
 
 								<li class="media">
 									<div class="mr-3">
-										<img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
 									</div>
 									<div class="media-body">
 										<a href="#" class="media-title font-weight-semibold">Vanessa Aurelius</a>
@@ -240,7 +241,7 @@
 							<ul class="media-list">
 								<li class="media">
 									<div class="mr-3 position-relative">
-										<img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
 									</div>
 
 									<div class="media-body">
@@ -257,7 +258,7 @@
 
 								<li class="media">
 									<div class="mr-3 position-relative">
-										<img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
 									</div>
 
 									<div class="media-body">
@@ -274,7 +275,7 @@
 
 								<li class="media">
 									<div class="mr-3">
-										<img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
 									</div>
 									<div class="media-body">
 										<div class="media-title">
@@ -290,7 +291,7 @@
 
 								<li class="media">
 									<div class="mr-3">
-										<img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
 									</div>
 									<div class="media-body">
 										<div class="media-title">
@@ -306,7 +307,7 @@
 
 								<li class="media">
 									<div class="mr-3">
-										<img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
 									</div>
 									<div class="media-body">
 										<div class="media-title">
@@ -330,8 +331,8 @@
 
 				<li class="nav-item dropdown dropdown-user">
 					<a href="#" class="navbar-nav-link d-flex align-items-center dropdown-toggle" data-toggle="dropdown">
-						<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle mr-2" height="34" alt="">
-						<span>Victoria</span>
+						<img src="global_assets/images/placeholders/placeholder.jpg" class="rounded-circle mr-2" height="34" alt="">
+						<span>AMARIS</span>
 					</a>
 
 					<div class="dropdown-menu dropdown-menu-right">
@@ -360,7 +361,7 @@
 				<a href="#" class="sidebar-mobile-main-toggle">
 					<i class="icon-arrow-left8"></i>
 				</a>
-				Navigation
+				Menú
 				<a href="#" class="sidebar-mobile-expand">
 					<i class="icon-screen-full"></i>
 					<i class="icon-screen-normal"></i>
@@ -377,13 +378,13 @@
 					<div class="card-body">
 						<div class="media">
 							<div class="mr-3">
-								<a href="#"><img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="38" height="38" class="rounded-circle" alt=""></a>
+								<a href="#"><img src="global_assets/images/placeholders/placeholder.jpg" width="38" height="38" class="rounded-circle" alt=""></a>
 							</div>
 
 							<div class="media-body">
-								<div class="media-title font-weight-semibold">Victoria Baker</div>
+								<div class="media-title font-weight-semibold">AMARIS</div>
 								<div class="font-size-xs opacity-50">
-									<i class="icon-pin font-size-sm"></i> &nbsp;Santa Ana, CA
+									<i class="icon-pin font-size-sm"></i> &nbsp;CIUDAD VICTORIA
 								</div>
 							</div>
 
@@ -401,72 +402,71 @@
 					<ul class="nav nav-sidebar" data-nav-type="accordion">
 
 						<!-- Main -->
-						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Main</div> <i class="icon-menu" title="Main"></i></li>
+						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">CONTENIDO</div> <i class="icon-menu" title="Main"></i></li>
 						<li class="nav-item">
-							<a href="index.html" class="nav-link">
+							<a href="index.php" class="nav-link active">
 								<i class="icon-home4"></i>
 								<span>
-									Dashboard
-									<span class="d-block font-weight-normal opacity-50">No active orders</span>
+									INICIO
 								</span>
 							</a>
 						</li>
+						
 						<li class="nav-item nav-item-submenu">
-							<a href="#" class="nav-link"><i class="icon-copy"></i> <span>Layouts</span></a>
+							<a href="#" class="nav-link"><i class="icon-people"></i> <span>EMPLEADOS</span></a>
 
-							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
-								<li class="nav-item"><a href="index.html" class="nav-link active">Default layout</a></li>
-								<li class="nav-item"><a href="../../../../layout_2/LTR/default/full/index.html" class="nav-link">Layout 2</a></li>
-								<li class="nav-item"><a href="../../../../layout_3/LTR/default/full/index.html" class="nav-link">Layout 3</a></li>
-								<li class="nav-item"><a href="../../../../layout_4/LTR/default/full/index.html" class="nav-link">Layout 4</a></li>
-								<li class="nav-item"><a href="../../../../layout_5/LTR/default/full/index.html" class="nav-link">Layout 5</a></li>
-								<li class="nav-item"><a href="../../../../layout_6/LTR/default/full/index.html" class="nav-link disabled">Layout 6 <span class="badge bg-transparent align-self-center ml-auto">Coming soon</span></a></li>
+							<ul class="nav nav-group-sub" data-submenu-title="Basic tables">
+								<li class="nav-item"><a href="table_basic.php" class="nav-link">TABLA DE EMPLEADOS</a></li>
+								<li class="nav-item"><a href="table_sizing.php" class="nav-link">SOLICITUD DE REGISTRO</a></li>
+								<li class="nav-item"><a href="table_borders.php" class="nav-link">EDITAR EMPLEADOS</a></li>
+								<li class="nav-item nav-item-submenu">
+									<a href="#" class="nav-link"><i class="icon-airplane2"></i> <span>VACACIONES</span></a>
+									<ul class="nav nav-group-sub">
+								<li class="nav-item"><a href="datatable_responsive.php" class="nav-link">lista</a></li>
+								<li class="nav-item"><a href="datatable_extension_buttons_flash.php" class="nav-link">Solicitar</a></li>
+								<li class="nav-item"><a href="table_styling.php" class="nav-link">Editar</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+							<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link"><i class="icon-grid7"></i> <span>DEPARTAMENTOS</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
+								<li class="nav-item"><a href="datatable_basic.php" class="nav-link">AGREGAR</a></li>
+								<li class="nav-item"><a href="datatable_styling.php" class="nav-link">EDITAR</a></li>
+								<li class="nav-item"><a href="datatable_advanced.php" class="nav-link">ENLISTAR</a></li>
 							</ul>
 						</li>
 						<li class="nav-item nav-item-submenu">
-							<a href="#" class="nav-link"><i class="icon-color-sampler"></i> <span>Themes</span></a>
-
-							<ul class="nav nav-group-sub" data-submenu-title="Themes">
-								<li class="nav-item"><a href="index.html" class="nav-link active">Default</a></li>
-								<li class="nav-item"><a href="../../../LTR/material/full/index.html" class="nav-link">Material</a></li>
-								<li class="nav-item"><a href="../../../LTR/dark/full/index.html" class="nav-link disabled">Dark <span class="badge bg-transparent align-self-center ml-auto">Coming soon</span></a></li>
-								<li class="nav-item"><a href="../../../LTR/clean/full/index.html" class="nav-link disabled">Clean <span class="badge bg-transparent align-self-center ml-auto">Coming soon</span></a></li>
+							<a href="#" class="nav-link"><i class="icon-home4"></i> <span>EMPRESA</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
+								<li class="nav-item"><a href="datatable_extension_select.php" class="nav-link">LISTA</a></li>
+								<li class="nav-item"><a href="datatable_extension_row_reorder.php" class="nav-link">AGREGAR</a></li>
+								<li class="nav-item"><a href="datatable_data_sources.php" class="nav-link">MODIFICAR</a></li>
+                            </ul>
+						</li>
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link"><i class="icon-users4"></i> <span>ALUMNOS</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Basic tables">
+								<li class="nav-item"><a href="datatable_api.php" class="nav-link">ENLISTAR</a></li>
+								<li class="nav-item"><a href="content_cards_draggable.php" class="nav-link">EDITAR</a></li>
+								<li class="nav-item"><a href="form_input_groups.php" class="nav-link">AGREGAR</a></li>
+								<li class="nav-item nav-item-submenu">
 							</ul>
 						</li>
 						<li class="nav-item nav-item-submenu">
-							<a href="#" class="nav-link"><i class="icon-stack"></i> <span>Starter kit</span></a>
-
-							<ul class="nav nav-group-sub" data-submenu-title="Starter kit">
-								<li class="nav-item"><a href="../seed/layout_nav_horizontal.html" class="nav-link">Horizontal navigation</a></li>
-								<li class="nav-item"><a href="../seed/sidebar_none.html" class="nav-link">No sidebar</a></li>
-								<li class="nav-item"><a href="../seed/sidebar_main.html" class="nav-link">1 sidebar</a></li>
+							<a href="#" class="nav-link"><i class="icon-brain"></i> <span>TUTORIAS</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Basic tables">
+								<li class="nav-item"><a href="handsontable_types.php" class="nav-link">LISTADO</a></li>
+								<li class="nav-item"><a href="fullcalendar_advanced.php" class="nav-link">AGREGAR</a></li>
 								<li class="nav-item nav-item-submenu">
-									<a href="#" class="nav-link">2 sidebars</a>
-									<ul class="nav nav-group-sub">
-										<li class="nav-item"><a href="../seed/sidebar_secondary.html" class="nav-link">Secondary sidebar</a></li>
-										<li class="nav-item"><a href="../seed/sidebar_right.html" class="nav-link">Right sidebar</a></li>
-									</ul>
-								</li>
-								<li class="nav-item nav-item-submenu">
-									<a href="#" class="nav-link">3 sidebars</a>
-									<ul class="nav nav-group-sub">
-										<li class="nav-item"><a href="../seed/sidebar_right_hidden.html" class="nav-link">Right sidebar hidden</a></li>
-										<li class="nav-item"><a href="../seed/sidebar_right_visible.html" class="nav-link">Right sidebar visible</a></li>
-									</ul>
-								</li>
-								<li class="nav-item nav-item-submenu">
-									<a href="#" class="nav-link">Content sidebars</a>
-									<ul class="nav nav-group-sub">
-										<li class="nav-item"><a href="../seed/sidebar_content_left.html" class="nav-link">Left sidebar</a></li>
-										<li class="nav-item"><a href="../seed/sidebar_content_right.html" class="nav-link">Right sidebar</a></li>
-									</ul>
-								</li>
-								<li class="nav-item"><a href="../seed/layout_boxed.html" class="nav-link">Boxed layout</a></li>
-								<li class="nav-item-divider"></li>
-								<li class="nav-item"><a href="../seed/navbar_fixed_main.html" class="nav-link">Fixed main navbar</a></li>
-								<li class="nav-item"><a href="../seed/navbar_fixed_secondary.html" class="nav-link">Fixed secondary navbar</a></li>
-								<li class="nav-item"><a href="../seed/navbar_fixed_both.html" class="nav-link">Both navbars fixed</a></li>
-								<li class="nav-item"><a href="../seed/layout_fixed.html" class="nav-link">Fixed layout</a></li>
+							</ul>
+						</li>
+                    	<li class="nav-item nav-item-submenu">
+							<a href="form_inputs_grid.php"class="nav-link"><i class="icon-grid7"></i> <span>PAGOS DE TRANSPORTE</span></a>
+							</ul>
+						</li>
+						<!--
 							</ul>
 						</li>
 						<li class="nav-item">
@@ -477,9 +477,11 @@
 							</a>
 						</li>
 						<li class="nav-item"><a href="../../../RTL/default/full/index.html" class="nav-link"><i class="icon-width"></i> <span>RTL version</span></a></li>
+					-->
 						<!-- /main -->
 
 						<!-- Forms -->
+						<!--
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Forms</div> <i class="icon-menu" title="Forms"></i></li>
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-pencil3"></i> <span>Form components</span></a>
@@ -534,9 +536,11 @@
 								<li class="nav-item"><a href="form_layout_horizontal_styled.html" class="nav-link disabled">Custom styles <span class="badge bg-transparent align-self-center ml-auto">Coming soon</span></a></li>
 							</ul>
 						</li>
+					-->
 						<!-- /forms -->
 
 						<!-- Components -->
+						<!--
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Components</div> <i class="icon-menu" title="Components"></i></li>
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-grid"></i> <span>Basic components</span></a>
@@ -558,7 +562,7 @@
 								<li class="nav-item"><a href="components_scrollspy.html" class="nav-link">Scrollspy</a></li>
 							</ul>
 						</li>
-						<li class="nav-item nav-item-submenu">
+						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
 							<a href="#" class="nav-link"><i class="icon-puzzle2"></i> <span>Content styling</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Content styling">
 								<li class="nav-item"><a href="content_page_header.html" class="nav-link">Page header</a></li>
@@ -569,7 +573,7 @@
 								<li class="nav-item"><a href="content_cards_layouts.html" class="nav-link">Card layouts</a></li>
 								<li class="nav-item"><a href="content_cards_header.html" class="nav-link">Card header elements</a></li>
 								<li class="nav-item"><a href="content_cards_footer.html" class="nav-link">Card footer elements</a></li>
-								<li class="nav-item"><a href="content_cards_draggable.html" class="nav-link">Draggable cards</a></li>
+								<li class="nav-item"><a href="content_cards_draggable.html" class="nav-link active">Draggable cards</a></li>
 								<li class="nav-item-divider"></li>
 								<li class="nav-item"><a href="content_text_styling.html" class="nav-link">Text styling</a></li>
 								<li class="nav-item"><a href="content_typography.html" class="nav-link">Typography</a></li>
@@ -639,9 +643,11 @@
 								<li class="nav-item"><a href="icons_fontawesome.html" class="nav-link">Font awesome</a></li>
 							</ul>
 						</li>
+					-->
 						<!-- /components -->
 
 						<!-- Layout -->
+						<!--
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Layout</div> <i class="icon-menu" title="Layout options"></i></li>
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-stack2"></i> <span>Page layouts</span></a>
@@ -804,9 +810,11 @@
 								<li class="nav-item"><a href="#" class="nav-link"><i class="icon-chrome"></i> Second level</a></li>
 							</ul>
 						</li>
+					-->
 						<!-- /layout -->
 
 						<!-- Data visualization -->
+						<!--
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Data visualization</div> <i class="icon-menu" title="Data visualization"></i></li>
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-graph"></i> <span>Echarts library</span></a>
@@ -908,9 +916,11 @@
 								<li class="nav-item"><a href="maps_echarts.html" class="nav-link disabled">ECharts maps <span class="badge bg-transparent align-self-center ml-auto">Coming soon</span></a></li>
 							</ul>
 						</li>
+					-->
 						<!-- /data visualization -->
 
 						<!-- Extensions -->
+						<!--
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Extensions</div> <i class="icon-menu" title="Extensions"></i></li>
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-puzzle4"></i> <span>Extensions</span></a>
@@ -956,9 +966,11 @@
 								<li class="nav-item"><a href="internationalization_callbacks.html" class="nav-link">Callbacks</a></li>
 							</ul>
 						</li>
+					-->
 						<!-- /extensions -->
 
 						<!-- Tables -->
+						<!--
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Tables</div> <i class="icon-menu" title="Tables"></i></li>
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-table2"></i> <span>Basic tables</span></a>
@@ -970,14 +982,14 @@
 								<li class="nav-item"><a href="table_elements.html" class="nav-link">Table elements</a></li>
 							</ul>
 						</li>
-						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
+						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-grid7"></i> <span>Data tables</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
 								<li class="nav-item"><a href="datatable_basic.html" class="nav-link">Basic initialization</a></li>
 								<li class="nav-item"><a href="datatable_styling.html" class="nav-link">Basic styling</a></li>
 								<li class="nav-item"><a href="datatable_advanced.html" class="nav-link">Advanced examples</a></li>
 								<li class="nav-item"><a href="datatable_sorting.html" class="nav-link">Sorting options</a></li>
-								<li class="nav-item"><a href="datatable_api.html" class="nav-link active">Using API</a></li>
+								<li class="nav-item"><a href="datatable_api.html" class="nav-link">Using API</a></li>
 								<li class="nav-item"><a href="datatable_data_sources.html" class="nav-link">Data sources</a></li>
 							</ul>
 						</li>
@@ -1025,9 +1037,11 @@
 								<li class="nav-item"><a href="datatable_responsive.html" class="nav-link">Responsive data tables</a></li>
 							</ul>
 						</li>
+					-->
 						<!-- /tables -->
 
 						<!-- Page kits -->
+						<!--
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Page kits</div> <i class="icon-menu" title="Page kits"></i></li>
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-grid6"></i> <span>General pages</span></a>
@@ -1189,6 +1203,7 @@
 								<li class="nav-item"><a href="widgets_form.html" class="nav-link disabled">Form widgets <span class="badge bg-transparent align-self-center ml-auto">Coming soon</span></a></li>
 							</ul>
 						</li>
+					-->
 						<!-- /page kits -->
 
 					</ul>
@@ -1209,7 +1224,7 @@
 			<div class="page-header page-header-light">
 				<div class="page-header-content header-elements-md-inline">
 					<div class="page-title d-flex">
-						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Datatables</span> - Using API</h4>
+						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">EDITAR</span> 
 						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
 					</div>
 
@@ -1226,8 +1241,8 @@
 					<div class="d-flex">
 						<div class="breadcrumb">
 							<a href="index.html" class="breadcrumb-item"><i class="icon-home2 mr-2"></i> Home</a>
-							<a href="datatable_api.html" class="breadcrumb-item">Datatables</a>
-							<span class="breadcrumb-item active">Using API</span>
+							<a href="content_cards_draggable.html" class="breadcrumb-item">EDITAR</a>
+							<span class="breadcrumb-item active">ALUMNO</span>
 						</div>
 
 						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
@@ -1259,15 +1274,13 @@
 				</div>
 			</div>
 			<!-- /page header -->
-
-
-			<!-- Content area -->
+    	<!-- Content area -->
 			<div class="content">
 
-				<!-- Single row selection -->
+				<!-- External events -->
 				<div class="card">
 					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Single row selection</h5>
+						<h5 class="card-title">EDITAR</h5>
 						<div class="header-elements">
 							<div class="list-icons">
 		                		<a class="list-icons-item" data-action="collapse"></a>
@@ -1276,1472 +1289,986 @@
 		                	</div>
 	                	</div>
 					</div>
-
+					
 					<div class="card-body">
-						This example shows a modification of the multiple row <code>selection</code> example, where just a <code>single</code> can now be selected. This is done simply by checking to see if the row already has a selected class or not, and if so removing it, if not then the class is removed from any other row in the table which does have it and applied to the row to be selected.
-					</div>
+						<p class="mb-3">
 
-					<table class="table datatable-selection-single">
-						<thead>
-							<tr>
-				                <th>Name</th>
-				                <th>Position</th>
-				                <th>Age</th>
-				                <th>Start date</th>
-				                <th>Salary</th>
-				                <th class="text-center">Actions</th>
-				            </tr>
-						</thead>
-						<tbody>
-							<tr>
-				                <td>Tiger Nixon</td>
-				                <td>System Architect</td>
-				                <td>61</td>
-				                <td><a href="#">2011/04/25</a></td>
-				                <td><span class="badge badge-info">$320,800</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
 
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
+							<form action="#">
+							<fieldset class="mb-3">
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">NOMBRE DEL ALUMNO</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<span class="input-group-prepend">
+											</span>
+											<input type="text" class="form-control" placeholder="nombre completo">
 										</div>
 									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Garrett Winters</td>
-				                <td>Accountant</td>
-				                <td>63</td>
-				                <td><a href="#">2011/07/25</a></td>
-				                <td><span class="badge badge-danger">$170,750</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
+								</div>
 
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">MATRICULA</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<span class="input-group-prepend">
+												
+											</span>
+											<input type="text" class="form-control" placeholder="ej.1930267">
 										</div>
 									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Ashton Cox</td>
-				                <td>Junior Technical Author</td>
-				                <td>66</td>
-				                <td><a href="#">2009/01/12</a></td>
-				                <td><span class="badge badge-secondary">$86,000</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
+								</div>
 
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">CARRERA</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<input type="text" class="form-control" placeholder="carrera">
+											<span class="input-group-append">	</span>
 										</div>
 									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Cedric Kelly</td>
-				                <td>Senior Javascript Developer</td>
-				                <td>22</td>
-				                <td><a href="#">2012/03/29</a></td>
-				                <td><span class="badge badge-success">$433,060</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
+								</div>
 
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">FECHA DE REINSCRIPCION</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<input type="text" class="form-control" placeholder="fecha de reinscripcion">
+											<span class="input-group-append">
+											
+											</span>
 										</div>
 									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Airi Satou</td>
-				                <td>Accountant</td>
-				                <td>33</td>
-				                <td><a href="#">2008/11/28</a></td>
-				                <td><span class="badge badge-danger">$162,700</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
+								</div>
 
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">FINAL DE CUATRI</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											</span>
+											<input type="text" class="form-control" placeholder="fin de cuatri">
+											<span class="input-group-append">
+												
+											</span>
 										</div>
 									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Brielle Williamson</td>
-				                <td>Integration Specialist</td>
-				                <td>61</td>
-				                <td><a href="#">2012/12/02</a></td>
-				                <td><span class="badge badge-info">$372,000</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
+								</div>
+							
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">ESTADIA</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<span class="input-group-prepend">
+											</span>
+											<input type="text" class="form-control" placeholder="nombre de la empresa">
 										</div>
 									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Herrod Chandler</td>
-				                <td>Sales Assistant</td>
-				                <td>59</td>
-				                <td><a href="#">2012/08/06</a></td>
-				                <td><span class="badge badge-danger">$137,500</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
+								</div>
 
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">TELEFONO</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<span class="input-group-prepend">
+												
+											</span>
+											<input type="text" class="form-control" placeholder="telefono">
 										</div>
 									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Rhona Davidson</td>
-				                <td>Integration Specialist</td>
-				                <td>55</td>
-				                <td><a href="#">2010/10/14</a></td>
-				                <td><span class="badge badge-secondary">$97,900</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
+								</div>
 
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">CLASES APROBADAS</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<input type="text" class="form-control" placeholder="clases aprobadas">
+											<span class="input-group-append">	</span>
 										</div>
 									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Colleen Hurst</td>
-				                <td>Javascript Developer</td>
-				                <td>39</td>
-				                <td><a href="#">2009/09/15</a></td>
-				                <td><span class="badge badge-success">$405,500</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
+								</div>
 
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">EDAD DEL ALUMNO</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<input type="text" class="form-control" placeholder="edad">
+											<span class="input-group-append">
+											
+											</span>
 										</div>
 									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Sonya Frost</td>
-				                <td>Software Engineer</td>
-				                <td>23</td>
-				                <td><a href="#">2008/12/13</a></td>
-				                <td><span class="badge badge-danger">$103,600</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
+								</div>
 
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">CORREO INSTITUCIONAL</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											</span>
+											<input type="text" class="form-control" placeholder="correo institucional">
+											<span class="input-group-append">
+												
+											</span>
 										</div>
 									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Jena Gaines</td>
-				                <td>Office Manager</td>
-				                <td>30</td>
-				                <td><a href="#">2008/12/19</a></td>
-				                <td><span class="badge badge-danger">$90,560</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
+								</div>
+							</fieldset>
+				<!-- /basic sorting -->
 
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Quinn Flynn</td>
-				                <td>Support Lead</td>
-				                <td>22</td>
-				                <td><a href="#">2013/03/03</a></td>
-				                <td><span class="badge badge-info">$342,000</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
 
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Charde Marshall</td>
-				                <td>Regional Director</td>
-				                <td>36</td>
-				                <td><a href="#">2008/10/16</a></td>
-				                <td><span class="badge badge-success">$470,600</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Haley Kennedy</td>
-				                <td>Senior Marketing Designer</td>
-				                <td>43</td>
-				                <td><a href="#">2012/12/18</a></td>
-				                <td><span class="badge badge-danger">$113,500</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Tatyana Fitzpatrick</td>
-				                <td>Regional Director</td>
-				                <td>19</td>
-				                <td><a href="#">2010/03/17</a></td>
-				                <td><span class="badge badge-info">$385,750</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-						</tbody>
-					</table>
+				<!-- Define column with sorting cards -->
+				<!--
+				<div class="mb-3 mt-2">
+					<h6 class="mb-0 font-weight-semibold">
+						Specify sorting area
+					</h6>
+					<span class="text-muted d-block">Specify column where to sort cards</span>
 				</div>
-				<!-- /single row selection -->
 
+				<div class="row">
+					<div class="col-md-6 column-card-sortable">
+						<div class="card">
+							<div class="card-header bg-white header-elements-inline">
+								<h6 class="card-title">This is a sortable card</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="move"></a>
+				                	</div>
+			                	</div>
+							</div>
+							
+							<div class="table-responsive">
+								<table class="table">
+									<thead>
+										<tr>
+											<th>#</th>
+											<th>First Name</th>
+											<th>Last Name</th>
+											<th>Username</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td rowspan="2">1</td>
+											<td>Mark</td>
+											<td>Otto</td>
+											<td>@mdo</td>
+										</tr>
+										<tr>
+											<td>Mark</td>
+											<td>Otto</td>
+											<td>@TwBootstrap</td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td>Jacob</td>
+											<td>Thornton</td>
+											<td>@fat</td>
+										</tr>
+										<tr>
+											<td>3</td>
+											<td colspan="2">Larry the Bird</td>
+											<td>@twitter</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
 
-				<!-- Multiple rows selection -->
-				<div class="card">
-					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Multiple rows selection</h5>
-						<div class="header-elements">
-							<div class="list-icons">
-		                		<a class="list-icons-item" data-action="collapse"></a>
-		                		<a class="list-icons-item" data-action="reload"></a>
-		                		<a class="list-icons-item" data-action="remove"></a>
-		                	</div>
-	                	</div>
+						<div class="card">
+							<div class="card-header bg-white header-elements-inline">
+								<h6 class="card-title">Another sortable card</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="move"></a>
+				                	</div>
+			                	</div>
+							</div>
+							
+							<div class="table-responsive">
+								<table class="table">
+									<thead>
+										<tr>
+											<th>#</th>
+											<th>First Name</th>
+											<th>Last Name</th>
+											<th>Username</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td rowspan="2">1</td>
+											<td>Mark</td>
+											<td>Otto</td>
+											<td>@mdo</td>
+										</tr>
+										<tr>
+											<td>Mark</td>
+											<td>Otto</td>
+											<td>@TwBootstrap</td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td>Jacob</td>
+											<td>Thornton</td>
+											<td>@fat</td>
+										</tr>
+										<tr>
+											<td>3</td>
+											<td colspan="2">Larry the Bird</td>
+											<td>@twitter</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
 					</div>
 
-					<div class="card-body">
-						It can be quite useful at times to provide the user with the option to select rows in a DataTable. This can be done by simply using a <code>click</code> event to add/remove a class on the table rows. The <code>rows().data()</code> method can then be used to get the data for the selected rows. In this case it is simply counting the number of selected rows, but much more complex interactions can easily be developed.
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header bg-white header-elements-inline">
+								<h6 class="card-title">Here sorting is disabled</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="move"></a>
+				                	</div>
+			                	</div>
+							</div>
+							
+							<div class="table-responsive">
+								<table class="table">
+									<thead>
+										<tr>
+											<th>#</th>
+											<th>First Name</th>
+											<th>Last Name</th>
+											<th>Username</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td rowspan="2">1</td>
+											<td>Mark</td>
+											<td>Otto</td>
+											<td>@mdo</td>
+										</tr>
+										<tr>
+											<td>Mark</td>
+											<td>Otto</td>
+											<td>@TwBootstrap</td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td>Jacob</td>
+											<td>Thornton</td>
+											<td>@fat</td>
+										</tr>
+										<tr>
+											<td>3</td>
+											<td colspan="2">Larry the Bird</td>
+											<td>@twitter</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="card-header bg-white header-elements-inline">
+								<h6 class="card-title">Here is also disabled</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="move"></a>
+				                	</div>
+			                	</div>
+							</div>
+							
+							<div class="table-responsive">
+								<table class="table table-bordered">
+									<thead>
+										<tr>
+											<th>#</th>
+											<th>First Name</th>
+											<th>Last Name</th>
+											<th>Username</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td rowspan="2">1</td>
+											<td>Mark</td>
+											<td>Otto</td>
+											<td>@mdo</td>
+										</tr>
+										<tr>
+											<td>Mark</td>
+											<td>Otto</td>
+											<td>@TwBootstrap</td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td>Jacob</td>
+											<td>Thornton</td>
+											<td>@fat</td>
+										</tr>
+										<tr>
+											<td>3</td>
+											<td colspan="2">Larry the Bird</td>
+											<td>@twitter</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
 					</div>
-
-					<table class="table datatable-selection-multiple">
-						<thead>
-							<tr>
-				                <th>Name</th>
-				                <th>Position</th>
-				                <th>Age</th>
-				                <th>Start date</th>
-				                <th>Salary</th>
-				                <th class="text-center">Actions</th>
-				            </tr>
-						</thead>
-						<tbody>
-							<tr>
-				                <td>Tiger Nixon</td>
-				                <td>System Architect</td>
-				                <td>61</td>
-				                <td><a href="#">2011/04/25</a></td>
-				                <td><span class="badge badge-info">$320,800</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Garrett Winters</td>
-				                <td>Accountant</td>
-				                <td>63</td>
-				                <td><a href="#">2011/07/25</a></td>
-				                <td><span class="badge badge-danger">$170,750</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Ashton Cox</td>
-				                <td>Junior Technical Author</td>
-				                <td>66</td>
-				                <td><a href="#">2009/01/12</a></td>
-				                <td><span class="badge badge-secondary">$86,000</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Cedric Kelly</td>
-				                <td>Senior Javascript Developer</td>
-				                <td>22</td>
-				                <td><a href="#">2012/03/29</a></td>
-				                <td><span class="badge badge-success">$433,060</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Airi Satou</td>
-				                <td>Accountant</td>
-				                <td>33</td>
-				                <td><a href="#">2008/11/28</a></td>
-				                <td><span class="badge badge-danger">$162,700</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Brielle Williamson</td>
-				                <td>Integration Specialist</td>
-				                <td>61</td>
-				                <td><a href="#">2012/12/02</a></td>
-				                <td><span class="badge badge-info">$372,000</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Herrod Chandler</td>
-				                <td>Sales Assistant</td>
-				                <td>59</td>
-				                <td><a href="#">2012/08/06</a></td>
-				                <td><span class="badge badge-danger">$137,500</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Rhona Davidson</td>
-				                <td>Integration Specialist</td>
-				                <td>55</td>
-				                <td><a href="#">2010/10/14</a></td>
-				                <td><span class="badge badge-secondary">$97,900</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Colleen Hurst</td>
-				                <td>Javascript Developer</td>
-				                <td>39</td>
-				                <td><a href="#">2009/09/15</a></td>
-				                <td><span class="badge badge-success">$405,500</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Sonya Frost</td>
-				                <td>Software Engineer</td>
-				                <td>23</td>
-				                <td><a href="#">2008/12/13</a></td>
-				                <td><span class="badge badge-danger">$103,600</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Jena Gaines</td>
-				                <td>Office Manager</td>
-				                <td>30</td>
-				                <td><a href="#">2008/12/19</a></td>
-				                <td><span class="badge badge-danger">$90,560</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Quinn Flynn</td>
-				                <td>Support Lead</td>
-				                <td>22</td>
-				                <td><a href="#">2013/03/03</a></td>
-				                <td><span class="badge badge-info">$342,000</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Charde Marshall</td>
-				                <td>Regional Director</td>
-				                <td>36</td>
-				                <td><a href="#">2008/10/16</a></td>
-				                <td><span class="badge badge-success">$470,600</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Haley Kennedy</td>
-				                <td>Senior Marketing Designer</td>
-				                <td>43</td>
-				                <td><a href="#">2012/12/18</a></td>
-				                <td><span class="badge badge-danger">$113,500</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Tatyana Fitzpatrick</td>
-				                <td>Regional Director</td>
-				                <td>19</td>
-				                <td><a href="#">2010/03/17</a></td>
-				                <td><span class="badge badge-info">$385,750</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-						</tbody>
-					</table>
 				</div>
-				<!-- /multiple rows selection -->
+			-->
+				<!-- /define column with sorting cards -->
 
 
-				<!-- Individual column searching (text inputs) -->
-				<div class="card">
-					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Individual column searching</h5>
-						<div class="header-elements">
-							<div class="list-icons">
-		                		<a class="list-icons-item" data-action="collapse"></a>
-		                		<a class="list-icons-item" data-action="reload"></a>
-		                		<a class="list-icons-item" data-action="remove"></a>
-		                	</div>
-	                	</div>
-					</div>
-
-					<div class="card-body">
-						Individual columns searching with <code>text inputs</code>. The searching functionality that is provided by DataTables is very useful for quickly search through the information in the table - however the search is global, and you may wish to present controls to search on specific columns only. This examples shows text elements being used with the <code>column().search()</code> method to add input controls in the footer of the table for each column.
-					</div>
-
-					<table class="table datatable-column-search-inputs">
-						<thead>
-							<tr>
-				                <th>Name</th>
-				                <th>Position</th>
-				                <th>Age</th>
-				                <th>Start date</th>
-				                <th>Salary</th>
-				                <th class="text-center">Actions</th>
-				            </tr>
-						</thead>
-						<tbody>
-							<tr>
-				                <td>Tiger Nixon</td>
-				                <td>System Architect</td>
-				                <td>61</td>
-				                <td><a href="#">2011/04/25</a></td>
-				                <td><span class="badge badge-info">$320,800</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Garrett Winters</td>
-				                <td>Accountant</td>
-				                <td>63</td>
-				                <td><a href="#">2011/07/25</a></td>
-				                <td><span class="badge badge-danger">$170,750</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Ashton Cox</td>
-				                <td>Junior Technical Author</td>
-				                <td>66</td>
-				                <td><a href="#">2009/01/12</a></td>
-				                <td><span class="badge badge-secondary">$86,000</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Cedric Kelly</td>
-				                <td>Senior Javascript Developer</td>
-				                <td>22</td>
-				                <td><a href="#">2012/03/29</a></td>
-				                <td><span class="badge badge-success">$433,060</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Airi Satou</td>
-				                <td>Accountant</td>
-				                <td>33</td>
-				                <td><a href="#">2008/11/28</a></td>
-				                <td><span class="badge badge-danger">$162,700</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Brielle Williamson</td>
-				                <td>Integration Specialist</td>
-				                <td>61</td>
-				                <td><a href="#">2012/12/02</a></td>
-				                <td><span class="badge badge-info">$372,000</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Herrod Chandler</td>
-				                <td>Sales Assistant</td>
-				                <td>59</td>
-				                <td><a href="#">2012/08/06</a></td>
-				                <td><span class="badge badge-danger">$137,500</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Rhona Davidson</td>
-				                <td>Integration Specialist</td>
-				                <td>55</td>
-				                <td><a href="#">2010/10/14</a></td>
-				                <td><span class="badge badge-secondary">$97,900</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Colleen Hurst</td>
-				                <td>Javascript Developer</td>
-				                <td>39</td>
-				                <td><a href="#">2009/09/15</a></td>
-				                <td><span class="badge badge-success">$405,500</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Sonya Frost</td>
-				                <td>Software Engineer</td>
-				                <td>23</td>
-				                <td><a href="#">2008/12/13</a></td>
-				                <td><span class="badge badge-danger">$103,600</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Jena Gaines</td>
-				                <td>Office Manager</td>
-				                <td>30</td>
-				                <td><a href="#">2008/12/19</a></td>
-				                <td><span class="badge badge-danger">$90,560</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Quinn Flynn</td>
-				                <td>Support Lead</td>
-				                <td>22</td>
-				                <td><a href="#">2013/03/03</a></td>
-				                <td><span class="badge badge-info">$342,000</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Charde Marshall</td>
-				                <td>Regional Director</td>
-				                <td>36</td>
-				                <td><a href="#">2008/10/16</a></td>
-				                <td><span class="badge badge-success">$470,600</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Haley Kennedy</td>
-				                <td>Senior Marketing Designer</td>
-				                <td>43</td>
-				                <td><a href="#">2012/12/18</a></td>
-				                <td><span class="badge badge-danger">$113,500</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Tatyana Fitzpatrick</td>
-				                <td>Regional Director</td>
-				                <td>19</td>
-				                <td><a href="#">2010/03/17</a></td>
-				                <td><span class="badge badge-info">$385,750</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-						</tbody>
-						<tfoot>
-							<tr>
-				                <td>Name</td>
-				                <td>Position</td>
-				                <td>Age</td>
-				                <td>Start date</td>
-				                <td>Salary</td>
-				                <td></td>
-				            </tr>
-						</tfoot>
-					</table>
+				<!-- Exclude specified cards from sorting -->
+				<!--
+				<div class="mb-3 mt-2">
+					<h6 class="mb-0 font-weight-semibold">
+						Exclude cards from sort
+					</h6>
+					<span class="text-muted d-block">Exclude specified cards from sorting</span>
 				</div>
-				<!-- /individual column searching (text inputs) -->
 
+				<div class="row sortable-exclude">
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header bg-white header-elements-inline">
+								<h6 class="card-title">Sortable card 1</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="move"></a>
+				                	</div>
+			                	</div>
+							</div>
+							
+							<div class="table-responsive">
+								<table class="table">
+									<thead>
+										<tr>
+											<th>#</th>
+											<th>First Name</th>
+											<th>Last Name</th>
+											<th>Username</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td rowspan="2">1</td>
+											<td>Mark</td>
+											<td>Otto</td>
+											<td>@mdo</td>
+										</tr>
+										<tr>
+											<td>Mark</td>
+											<td>Otto</td>
+											<td>@TwBootstrap</td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td>Jacob</td>
+											<td>Thornton</td>
+											<td>@fat</td>
+										</tr>
+										<tr>
+											<td>3</td>
+											<td colspan="2">Larry the Bird</td>
+											<td>@twitter</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
 
-				<!-- Individual column searching (selects) -->
-				<div class="card">
-					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Individual column searching</h5>
-						<div class="header-elements">
-							<div class="list-icons">
-		                		<a class="list-icons-item" data-action="collapse"></a>
-		                		<a class="list-icons-item" data-action="reload"></a>
-		                		<a class="list-icons-item" data-action="remove"></a>
-		                	</div>
-	                	</div>
+						<div class="card">
+							<div class="card-header bg-white header-elements-inline">
+								<h6 class="card-title">Sortable card 2</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="move"></a>
+				                	</div>
+			                	</div>
+							</div>
+							
+							<div class="table-responsive">
+								<table class="table">
+									<thead>
+										<tr>
+											<th>#</th>
+											<th>First Name</th>
+											<th>Last Name</th>
+											<th>Username</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td rowspan="2">1</td>
+											<td>Mark</td>
+											<td>Otto</td>
+											<td>@mdo</td>
+										</tr>
+										<tr>
+											<td>Mark</td>
+											<td>Otto</td>
+											<td>@TwBootstrap</td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td>Jacob</td>
+											<td>Thornton</td>
+											<td>@fat</td>
+										</tr>
+										<tr>
+											<td>3</td>
+											<td colspan="2">Larry the Bird</td>
+											<td>@twitter</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
 					</div>
 
-					<div class="card-body">
-						Individual columns searching with <code>selects</code>. This example is almost identical to text based individual column example and provides the same functionality, but in this case using <code>select</code> input controls. After the table is initialised, the API is used to build the select inputs through the use of the <code>column().data()</code> method to get the data for each column in turn.
+					<div class="col-md-6">
+						<div class="card skip-sort">
+							<div class="card-header bg-white header-elements-inline">
+								<h6 class="card-title">Non-sortable card</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="move"></a>
+				                	</div>
+			                	</div>
+							</div>
+							
+							<div class="table-responsive">
+								<table class="table">
+									<thead>
+										<tr>
+											<th>#</th>
+											<th>First Name</th>
+											<th>Last Name</th>
+											<th>Username</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td rowspan="2">1</td>
+											<td>Mark</td>
+											<td>Otto</td>
+											<td>@mdo</td>
+										</tr>
+										<tr>
+											<td>Mark</td>
+											<td>Otto</td>
+											<td>@TwBootstrap</td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td>Jacob</td>
+											<td>Thornton</td>
+											<td>@fat</td>
+										</tr>
+										<tr>
+											<td>3</td>
+											<td colspan="2">Larry the Bird</td>
+											<td>@twitter</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="card-header bg-white header-elements-inline">
+								<h6 class="card-title">Sortable card 3</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="move"></a>
+				                	</div>
+			                	</div>
+							</div>
+							
+							<div class="table-responsive">
+								<table class="table">
+									<thead>
+										<tr>
+											<th>#</th>
+											<th>First Name</th>
+											<th>Last Name</th>
+											<th>Username</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td rowspan="2">1</td>
+											<td>Mark</td>
+											<td>Otto</td>
+											<td>@mdo</td>
+										</tr>
+										<tr>
+											<td>Mark</td>
+											<td>Otto</td>
+											<td>@TwBootstrap</td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td>Jacob</td>
+											<td>Thornton</td>
+											<td>@fat</td>
+										</tr>
+										<tr>
+											<td>3</td>
+											<td colspan="2">Larry the Bird</td>
+											<td>@twitter</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
 					</div>
-
-					<table class="table datatable-column-search-selects">
-						<thead>
-							<tr>
-				                <th>Name</th>
-				                <th>Position</th>
-				                <th>Age</th>
-				                <th>Start date</th>
-				                <th>Salary</th>
-				                <th class="text-center">Actions</th>
-				            </tr>
-						</thead>
-						<tbody>
-							<tr>
-				                <td>Tiger Nixon</td>
-				                <td>System Architect</td>
-				                <td>61</td>
-				                <td><a href="#">2011/04/25</a></td>
-				                <td><span class="badge badge-info">$320,800</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Garrett Winters</td>
-				                <td>Accountant</td>
-				                <td>63</td>
-				                <td><a href="#">2011/07/25</a></td>
-				                <td><span class="badge badge-danger">$170,750</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Ashton Cox</td>
-				                <td>Junior Technical Author</td>
-				                <td>66</td>
-				                <td><a href="#">2009/01/12</a></td>
-				                <td><span class="badge badge-secondary">$86,000</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Cedric Kelly</td>
-				                <td>Senior Javascript Developer</td>
-				                <td>22</td>
-				                <td><a href="#">2012/03/29</a></td>
-				                <td><span class="badge badge-success">$433,060</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Airi Satou</td>
-				                <td>Accountant</td>
-				                <td>33</td>
-				                <td><a href="#">2008/11/28</a></td>
-				                <td><span class="badge badge-danger">$162,700</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Brielle Williamson</td>
-				                <td>Integration Specialist</td>
-				                <td>61</td>
-				                <td><a href="#">2012/12/02</a></td>
-				                <td><span class="badge badge-info">$372,000</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Herrod Chandler</td>
-				                <td>Sales Assistant</td>
-				                <td>59</td>
-				                <td><a href="#">2012/08/06</a></td>
-				                <td><span class="badge badge-danger">$137,500</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Rhona Davidson</td>
-				                <td>Integration Specialist</td>
-				                <td>55</td>
-				                <td><a href="#">2010/10/14</a></td>
-				                <td><span class="badge badge-secondary">$97,900</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Colleen Hurst</td>
-				                <td>Javascript Developer</td>
-				                <td>39</td>
-				                <td><a href="#">2009/09/15</a></td>
-				                <td><span class="badge badge-success">$405,500</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Sonya Frost</td>
-				                <td>Software Engineer</td>
-				                <td>23</td>
-				                <td><a href="#">2008/12/13</a></td>
-				                <td><span class="badge badge-danger">$103,600</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Jena Gaines</td>
-				                <td>Office Manager</td>
-				                <td>30</td>
-				                <td><a href="#">2008/12/19</a></td>
-				                <td><span class="badge badge-danger">$90,560</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Quinn Flynn</td>
-				                <td>Support Lead</td>
-				                <td>22</td>
-				                <td><a href="#">2013/03/03</a></td>
-				                <td><span class="badge badge-info">$342,000</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Charde Marshall</td>
-				                <td>Regional Director</td>
-				                <td>36</td>
-				                <td><a href="#">2008/10/16</a></td>
-				                <td><span class="badge badge-success">$470,600</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Haley Kennedy</td>
-				                <td>Senior Marketing Designer</td>
-				                <td>43</td>
-				                <td><a href="#">2012/12/18</a></td>
-				                <td><span class="badge badge-danger">$113,500</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-				            <tr>
-				                <td>Tatyana Fitzpatrick</td>
-				                <td>Regional Director</td>
-				                <td>19</td>
-				                <td><a href="#">2010/03/17</a></td>
-				                <td><span class="badge badge-info">$385,750</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-				            </tr>
-						</tbody>
-						<tfoot>
-							<tr>
-				                <td>Name</td>
-				                <td>Position</td>
-				                <td>Age</td>
-				                <td>Start date</td>
-				                <td>Salary</td>
-				                <td></td>
-				            </tr>
-						</tfoot>
-					</table>
 				</div>
-				<!-- /individual column searching (selects) -->
+			-->
+				<!-- /exclude specified cards from sorting -->
+
+
+				<!-- Custom sorting handle -->
+				<!--
+				<div class="mb-3 mt-2">
+					<h6 class="mb-0 font-weight-semibold">
+						Sorting handles
+					</h6>
+					<span class="text-muted d-block">Handles are <code>card title</code> and <code>move icon</code></span>
+				</div>
+
+				<div class="row sortable-heading">
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header bg-white header-elements-inline">
+								<h6 class="card-title">Title handle 1</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="move"></a>
+				                	</div>
+			                	</div>
+							</div>
+							
+							<div class="table-responsive">
+								<table class="table">
+									<thead>
+										<tr>
+											<th>#</th>
+											<th>First Name</th>
+											<th>Last Name</th>
+											<th>Username</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td rowspan="2">1</td>
+											<td>Mark</td>
+											<td>Otto</td>
+											<td>@mdo</td>
+										</tr>
+										<tr>
+											<td>Mark</td>
+											<td>Otto</td>
+											<td>@TwBootstrap</td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td>Jacob</td>
+											<td>Thornton</td>
+											<td>@fat</td>
+										</tr>
+										<tr>
+											<td>3</td>
+											<td colspan="2">Larry the Bird</td>
+											<td>@twitter</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="card-header bg-white header-elements-inline">
+								<h6 class="card-title">Title handle 2</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="move"></a>
+				                	</div>
+			                	</div>
+							</div>
+							
+							<div class="table-responsive">
+								<table class="table">
+									<thead>
+										<tr>
+											<th>#</th>
+											<th>First Name</th>
+											<th>Last Name</th>
+											<th>Username</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td rowspan="2">1</td>
+											<td>Mark</td>
+											<td>Otto</td>
+											<td>@mdo</td>
+										</tr>
+										<tr>
+											<td>Mark</td>
+											<td>Otto</td>
+											<td>@TwBootstrap</td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td>Jacob</td>
+											<td>Thornton</td>
+											<td>@fat</td>
+										</tr>
+										<tr>
+											<td>3</td>
+											<td colspan="2">Larry the Bird</td>
+											<td>@twitter</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header bg-white header-elements-inline">
+								<h6 class="card-title">Title handle 3</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="move"></a>
+				                	</div>
+			                	</div>
+							</div>
+							
+							<div class="table-responsive">
+								<table class="table">
+									<thead>
+										<tr>
+											<th>#</th>
+											<th>First Name</th>
+											<th>Last Name</th>
+											<th>Username</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td rowspan="2">1</td>
+											<td>Mark</td>
+											<td>Otto</td>
+											<td>@mdo</td>
+										</tr>
+										<tr>
+											<td>Mark</td>
+											<td>Otto</td>
+											<td>@TwBootstrap</td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td>Jacob</td>
+											<td>Thornton</td>
+											<td>@fat</td>
+										</tr>
+										<tr>
+											<td>3</td>
+											<td colspan="2">Larry the Bird</td>
+											<td>@twitter</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="card-header bg-white header-elements-inline">
+								<h6 class="card-title">Title handle 1</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="move"></a>
+				                	</div>
+			                	</div>
+							</div>
+							
+							<div class="table-responsive">
+								<table class="table">
+									<thead>
+										<tr>
+											<th>#</th>
+											<th>First Name</th>
+											<th>Last Name</th>
+											<th>Username</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td rowspan="2">1</td>
+											<td>Mark</td>
+											<td>Otto</td>
+											<td>@mdo</td>
+										</tr>
+										<tr>
+											<td>Mark</td>
+											<td>Otto</td>
+											<td>@TwBootstrap</td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td>Jacob</td>
+											<td>Thornton</td>
+											<td>@fat</td>
+										</tr>
+										<tr>
+											<td>3</td>
+											<td colspan="2">Larry the Bird</td>
+											<td>@twitter</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			-->
+				<!-- /custom sorting handle -->
+
+
+				<!-- Full card sorting -->
+				<!--
+				<div class="mb-3 mt-2">
+					<h6 class="mb-0 font-weight-semibold">
+						Card as a handle
+					</h6>
+					<span class="text-muted d-block">The whole card is a sorting handle</span>
+				</div>
+
+				<div class="row sortable-card">
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header bg-white header-elements-inline">
+								<h6 class="card-title">Sortable card 1</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="move"></a>
+				                	</div>
+			                	</div>
+							</div>
+							
+							<div class="table-responsive">
+								<table class="table">
+									<thead>
+										<tr>
+											<th>#</th>
+											<th>First Name</th>
+											<th>Last Name</th>
+											<th>Username</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td rowspan="2">1</td>
+											<td>Mark</td>
+											<td>Otto</td>
+											<td>@mdo</td>
+										</tr>
+										<tr>
+											<td>Mark</td>
+											<td>Otto</td>
+											<td>@TwBootstrap</td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td>Jacob</td>
+											<td>Thornton</td>
+											<td>@fat</td>
+										</tr>
+										<tr>
+											<td>3</td>
+											<td colspan="2">Larry the Bird</td>
+											<td>@twitter</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="card-header bg-white header-elements-inline">
+								<h6 class="card-title">Sortable card 2</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="move"></a>
+				                	</div>
+			                	</div>
+							</div>
+							
+							<div class="table-responsive">
+								<table class="table">
+									<thead>
+										<tr>
+											<th>#</th>
+											<th>First Name</th>
+											<th>Last Name</th>
+											<th>Username</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td rowspan="2">1</td>
+											<td>Mark</td>
+											<td>Otto</td>
+											<td>@mdo</td>
+										</tr>
+										<tr>
+											<td>Mark</td>
+											<td>Otto</td>
+											<td>@TwBootstrap</td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td>Jacob</td>
+											<td>Thornton</td>
+											<td>@fat</td>
+										</tr>
+										<tr>
+											<td>3</td>
+											<td colspan="2">Larry the Bird</td>
+											<td>@twitter</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header bg-white header-elements-inline">
+								<h6 class="card-title">Sortable card 3</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="move"></a>
+				                	</div>
+			                	</div>
+							</div>
+							
+							<div class="table-responsive">
+								<table class="table">
+									<thead>
+										<tr>
+											<th>#</th>
+											<th>First Name</th>
+											<th>Last Name</th>
+											<th>Username</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td rowspan="2">1</td>
+											<td>Mark</td>
+											<td>Otto</td>
+											<td>@mdo</td>
+										</tr>
+										<tr>
+											<td>Mark</td>
+											<td>Otto</td>
+											<td>@TwBootstrap</td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td>Jacob</td>
+											<td>Thornton</td>
+											<td>@fat</td>
+										</tr>
+										<tr>
+											<td>3</td>
+											<td colspan="2">Larry the Bird</td>
+											<td>@twitter</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="card-header bg-white header-elements-inline">
+								<h6 class="card-title">Sortable card 4</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="move"></a>
+				                	</div>
+			                	</div>
+							</div>
+							
+							<div class="table-responsive">
+								<table class="table">
+									<thead>
+										<tr>
+											<th>#</th>
+											<th>First Name</th>
+											<th>Last Name</th>
+											<th>Username</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td rowspan="2">1</td>
+											<td>Mark</td>
+											<td>Otto</td>
+											<td>@mdo</td>
+										</tr>
+										<tr>
+											<td>Mark</td>
+											<td>Otto</td>
+											<td>@TwBootstrap</td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td>Jacob</td>
+											<td>Thornton</td>
+											<td>@fat</td>
+										</tr>
+										<tr>
+											<td>3</td>
+											<td colspan="2">Larry the Bird</td>
+											<td>@twitter</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			-->
+				<!-- /full card sorting -->
 
 			</div>
 			<!-- /content area -->

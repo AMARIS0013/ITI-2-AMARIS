@@ -27,7 +27,7 @@
 	<script src="global_assets/js/plugins/forms/selects/select2.min.js"></script>
 
 	<script src="assets/js/app.js"></script>
-	<script src="global_assets/js/demo_pages/datatables_basic.js"></script>
+	<script src="global_assets/js/demo_pages/datatables_api.js"></script>
 	<!-- /theme JS files -->
 
 </head>
@@ -401,16 +401,18 @@
 					<ul class="nav nav-sidebar" data-nav-type="accordion">
 
 						<!-- Main -->
-						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">CONTENIDO</div> <i class="icon-menu" title="Main"></i></li>
+						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Main</div> <i class="icon-menu" title="Main"></i></li>
 						<li class="nav-item">
-							<a href="index.php" class="nav-link active">
+							<a href="index.html" class="nav-link">
 								<i class="icon-home4"></i>
 								<span>
 									INICIO
+									<!--
+									<span class="d-block font-weight-normal opacity-50">No active orders</span>-->
 								</span>
 							</a>
 						</li>
-						
+
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-people"></i> <span>EMPLEADOS</span></a>
 
@@ -433,7 +435,7 @@
 							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
 								<li class="nav-item"><a href="datatable_basic.php" class="nav-link">AGREGAR</a></li>
 								<li class="nav-item"><a href="datatable_styling.php" class="nav-link">EDITAR</a></li>
-								<li class="nav-item"><a href="datatable_advanced.php" class="nav-link">ENLISTAR</a></li>
+								<li class="nav-item"><a href="datatable_advanced.phpl" class="nav-link">ENLISTAR</a></li>
 							</ul>
 						</li>
 						<li class="nav-item nav-item-submenu">
@@ -447,17 +449,17 @@
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-users4"></i> <span>ALUMNOS</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Basic tables">
-								<li class="nav-item"><a href="datatable_api.php" class="nav-link">ENLISTAR</a></li>
-								<li class="nav-item"><a href="content_cards_draggable.php" class="nav-link">EDITAR</a></li>
-								<li class="nav-item"><a href="form_input_groups.php" class="nav-link">AGREGAR</a></li>
+								<li class="nav-item"><a href="datatable_api.html" class="nav-link">ENLISTAR</a></li>
+								<li class="nav-item"><a href="content_cards_draggable.html" class="nav-link">EDITAR</a></li>
+								<li class="nav-item"><a href="form_input_groups.html" class="nav-link">AGREGAR</a></li>
 								<li class="nav-item nav-item-submenu">
 							</ul>
 						</li>
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-brain"></i> <span>TUTORIAS</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Basic tables">
-								<li class="nav-item"><a href="handsontable_types.php" class="nav-link">LISTADO</a></li>
-								<li class="nav-item"><a href="fullcalendar_advanced.php" class="nav-link">AGREGAR</a></li>
+								<li class="nav-item"><a href="handsontable_types.html" class="nav-link">LISTADO</a></li>
+								<li class="nav-item"><a href="fullcalendar_advanced.html" class="nav-link">AGREGAR</a></li>
 								<li class="nav-item nav-item-submenu">
 							</ul>
 						</li>
@@ -465,29 +467,7 @@
 							<a href="form_inputs_grid.php"class="nav-link"><i class="icon-grid7"></i> <span>PAGOS DE TRANSPORTE</span></a>
 							</ul>
 						</li>
-								<!--
-									</ul>
-								</li>
-								<li class="nav-item nav-item-submenu">
-									<a href="#" class="nav-link">3 sidebars</a>
-									<ul class="nav nav-group-sub">
-										<li class="nav-item"><a href="../seed/sidebar_right_hidden.html" class="nav-link">Right sidebar hidden</a></li>
-										<li class="nav-item"><a href="../seed/sidebar_right_visible.html" class="nav-link">Right sidebar visible</a></li>
-									</ul>
-								</li>
-								<li class="nav-item nav-item-submenu">
-									<a href="#" class="nav-link">Content sidebars</a>
-									<ul class="nav nav-group-sub">
-										<li class="nav-item"><a href="../seed/sidebar_content_left.html" class="nav-link">Left sidebar</a></li>
-										<li class="nav-item"><a href="../seed/sidebar_content_right.html" class="nav-link">Right sidebar</a></li>
-									</ul>
-								</li>
-								<li class="nav-item"><a href="../seed/layout_boxed.html" class="nav-link">Boxed layout</a></li>
-								<li class="nav-item-divider"></li>
-								<li class="nav-item"><a href="../seed/navbar_fixed_main.html" class="nav-link">Fixed main navbar</a></li>
-								<li class="nav-item"><a href="../seed/navbar_fixed_secondary.html" class="nav-link">Fixed secondary navbar</a></li>
-								<li class="nav-item"><a href="../seed/navbar_fixed_both.html" class="nav-link">Both navbars fixed</a></li>
-								<li class="nav-item"><a href="../seed/layout_fixed.html" class="nav-link">Fixed layout</a></li>
+						<!--
 							</ul>
 						</li>
 						<li class="nav-item">
@@ -497,8 +477,7 @@
 								<span class="badge bg-blue-400 align-self-center ml-auto">2.2</span>
 							</a>
 						</li>
-						<li class="nav-item"><a href="../../../RTL/default/full/index.html" class="nav-link"><i class="icon-width"></i> <span>RTL version</span></a></li>
-					-->
+						<li class="nav-item"><a href="../../../RTL/default/full/index.html" class="nav-link"><i class="icon-width"></i> <span>RTL version</span></a></li>-->
 						<!-- /main -->
 
 						<!-- Forms -->
@@ -940,7 +919,8 @@
 					-->
 						<!-- /data visualization -->
 
-						<!-- Extensions --><!--
+						<!-- Extensions -->
+						<!--
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Extensions</div> <i class="icon-menu" title="Extensions"></i></li>
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-puzzle4"></i> <span>Extensions</span></a>
@@ -992,28 +972,24 @@
 						<!-- Tables -->
 						<!--
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Tables</div> <i class="icon-menu" title="Tables"></i></li>
-					
 						<li class="nav-item nav-item-submenu">
-							<a href="#" class="nav-link"><i class="icon-grid7"></i> <span>DEPARTAMENTOS</span></a>
-							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
-								<li class="nav-item"><a href="datatable_basic.html" class="nav-link">AGREGAR</a></li>
-								<li class="nav-item"><a href="datatable_styling.html" class="nav-link">EDITAR</a></li>
-								<li class="nav-item"><a href="datatable_advanced.html" class="nav-link">ENLISTAR</a></li>
-								
+							<a href="#" class="nav-link"><i class="icon-table2"></i> <span>Basic tables</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Basic tables">
+								<li class="nav-item"><a href="table_basic.html" class="nav-link">Basic examples</a></li>
+								<li class="nav-item"><a href="table_sizing.html" class="nav-link">Table sizing</a></li>
+								<li class="nav-item"><a href="table_borders.html" class="nav-link">Table borders</a></li>
 								<li class="nav-item"><a href="table_styling.html" class="nav-link">Table styling</a></li>
 								<li class="nav-item"><a href="table_elements.html" class="nav-link">Table elements</a></li>
 							</ul>
 						</li>
-					
-						<li class="nav-item nav-item-submenu">
-							<a href="#" class="nav-link"><i class="icon-grid7"></i> <span>DEPARTAMENTOS</span></a>
+						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
+							<a href="#" class="nav-link"><i class="icon-grid7"></i> <span>Data tables</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
-								<li class="nav-item"><a href="datatable_basic.html" class="nav-link">AGREGAR</a></li>
-								<li class="nav-item"><a href="datatable_styling.html" class="nav-link">EDITAR</a></li>
-								<li class="nav-item"><a href="datatable_advanced.html" class="nav-link">ENLISTAR</a></li>
-								
+								<li class="nav-item"><a href="datatable_basic.html" class="nav-link">Basic initialization</a></li>
+								<li class="nav-item"><a href="datatable_styling.html" class="nav-link">Basic styling</a></li>
+								<li class="nav-item"><a href="datatable_advanced.html" class="nav-link">Advanced examples</a></li>
 								<li class="nav-item"><a href="datatable_sorting.html" class="nav-link">Sorting options</a></li>
-								<li class="nav-item"><a href="datatable_api.html" class="nav-link">Using API</a></li>
+								<li class="nav-item"><a href="datatable_api.html" class="nav-link active">Using API</a></li>
 								<li class="nav-item"><a href="datatable_data_sources.html" class="nav-link">Data sources</a></li>
 							</ul>
 						</li>
@@ -1248,7 +1224,7 @@
 			<div class="page-header page-header-light">
 				<div class="page-header-content header-elements-md-inline">
 					<div class="page-title d-flex">
-						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">EDITAR</span>
+						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">LISTADO</span> 
 						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
 					</div>
 
@@ -1265,8 +1241,7 @@
 					<div class="d-flex">
 						<div class="breadcrumb">
 							<a href="index.html" class="breadcrumb-item"><i class="icon-home2 mr-2"></i> Home</a>
-							<a href="datatable_styling.html" class="breadcrumb-item">DEPARTAMENTOS</a>
-							<span class="breadcrumb-item active">EDITAR</span>
+							<a href="datatable_api.html" class="breadcrumb-item">LISTADO</a>
 						</div>
 
 						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
@@ -1303,10 +1278,10 @@
 			<!-- Content area -->
 			<div class="content">
 
-				<!-- Basic datatable -->
+				<!-- Single row selection -->
 				<div class="card">
 					<div class="card-header header-elements-inline">
-						<h5 class="card-title">EDICIÓN</h5>
+						<h5 class="card-title">LISTA DE ALUMNOS</h5>
 						<div class="header-elements">
 							<div class="list-icons">
 		                		<a class="list-icons-item" data-action="collapse"></a>
@@ -1317,138 +1292,27 @@
 					</div>
 
 					<div class="card-body">
-						Llenar los campos correspondientes
+						
 					</div>
 
-					<form action="#">
-							<fieldset class="mb-3">
-								<legend class="text-uppercase font-size-sm font-weight-bold">DATOS BASICOS</legend>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">NOMBRE COMPLETO</label>
-									<div class="col-lg-10">
-											</span>
-											<input type="text" class="form-control" placeholder="NOMBRE">
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">EDAD</label>
-									<div class="col-lg-10">
-											</span>
-											<input type="text" class="form-control" placeholder="EDAD">
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">CORREO</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<input type="text" class="form-control" placeholder="CORREO">
-											<span class="input-group-append">
-												<span class="input-group-text">@</span>
-											</span>
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">MATRICULA</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<input type="text" class="form-control" placeholder="MATRICULA">
-											<span class="input-group-append">
-												
-											</span>
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">DEPARTAMENTO</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<input type="text" class="form-control" placeholder="DEPARTAMENTO">
-											<span class="input-group-append">
-												
-											</span>
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">TELEFONO</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<span class="input-group-prepend">
-												<span class="input-group-text">📞</span>
-											</span>
-											<input type="text" class="form-control" placeholder="TELEFONO">
-											
-											</span>
-										</div>
-									</div>
-								</div>
-							</fieldset>
-
-							<fieldset class="mb-3">
-								<legend class="text-uppercase font-size-sm font-weight-bold">SEGURO</legend>
-<!--
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">NOMBRE DEL HOSPITAL AFILIADO</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<span class="input-group-prepend">
-												<span class="input-group-text">🏪<class="icon-user"></i></span>
-											</span>
-											<input type="text" class="form-control" placeholder="NOMBRE">
-										</div>
-									</div>
-								</div>
--->
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">N° DE SEGURO</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<input type="text" class="form-control" placeholder="ejemplo: 1459">
-											<span class="input-group-append">
-												<span class="input-group-text" class="icon-user"></i></span>
-											</span>
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">TIPO DE SANGRE</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<span class="input-group-prepend">
-												<span class="input-group-text">🩸<class="icon-user"></i></span>
-											</span>
-											<input type="text" class="form-control" placeholder="ejemplo +O">
-											<span class="input-group-append">
-					<!--
-
-					<table class="table datatable-basic">
+					<table class="table datatable-selection-single">
 						<thead>
 							<tr>
-								<th>First Name</th>
-								<th>Last Name</th>
-								<th>Job Title</th>
-								<th>DOB</th>
-								<th>Status</th>
-								<th class="text-center">Actions</th>
-							</tr>
+				                <th>NOMBRE</th>
+				                <th>CARRERA</th>
+				                <th>AÑOS</th>
+				                <th>CUATRIMESTRE</th>
+				                <th>ESTANCIA</th>
+				                <th class="text-center">Actions</th>
+				            </tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td>Marth</td>
-								<td><a href="#">Enright</a></td>
-								<td>Traffic Court Referee</td>
-								<td>22 Jun 1972</td>
-								<td><span class="badge badge-success">Active</span></td>
+				                <td>Santiago</td>
+				                <td>LAYGE</td>
+				                <td>20</td>
+				                <td><a>6</a></td>
+				                <td><span class="badge badge-success">si</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1464,13 +1328,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Jackelyn</td>
-								<td>Weible</td>
-								<td><a href="#">Airline Transport Pilot</a></td>
-								<td>3 Oct 1981</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
+				            </tr>
+				            <tr>
+				                <td>Garrett</td>
+				                <td>Mecatronica</td>
+				                <td>19</td>
+				                <td><a>4</a></td>
+				                <td><span class="badge badge-danger">no</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1486,13 +1350,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Aura</td>
-								<td>Hard</td>
-								<td>Business Services Sales Representative</td>
-								<td>19 Apr 1969</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
+				            </tr>
+				            <tr>
+				                <td>Arnoldo</td>
+				                <td>ISA</td>
+				                <td>18</td>
+				                <td><a>2</a></td>
+				                <td><span class="badge badge-danger">no</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1508,13 +1372,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Nathalie</td>
-								<td><a href="#">Pretty</a></td>
-								<td>Drywall Stripper</td>
-								<td>13 Dec 1977</td>
-								<td><span class="badge badge-info">Pending</span></td>
+				            </tr>
+				            <tr>
+				                <td>Carol</td>
+				                <td>ITI</td>
+				                <td>22</td>
+				                <td><a>9</a></td>
+				                <td><span class="badge badge-danger">no</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1530,13 +1394,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Sharan</td>
-								<td>Leland</td>
-								<td>Aviation Tactical Readiness Officer</td>
-								<td>30 Dec 1991</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
+				            </tr>
+				            <tr>
+				                <td>Airisteo</td>
+				                <td>ITI</td>
+				                <td>20</td>
+				                <td><a>8</a></td>
+				                <td><span class="badge badge-success">si</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1552,13 +1416,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Maxine</td>
-								<td><a href="#">Woldt</a></td>
-								<td><a href="#">Business Services Sales Representative</a></td>
-								<td>17 Oct 1987</td>
-								<td><span class="badge badge-info">Pending</span></td>
+				            </tr>
+				            <tr>
+				                <td>Brian</td>
+				                <td>ISA</td>
+				                <td>19</td>
+				                <td><a>5</a></td>
+				                <td><span class="badge badge-danger">no</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1574,13 +1438,14 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Sylvia</td>
-								<td><a href="#">Mcgaughy</a></td>
-								<td>Hemodialysis Technician</td>
-								<td>11 Nov 1983</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
+				            </tr>
+				            <!--
+				            <tr>
+				                <td>Herrod Chandler</td>
+				                <td>Sales Assistant</td>
+				                <td>59</td>
+				                <td><a href="#">2012/08/06</a></td>
+				                <td><span class="badge badge-danger">$137,500</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1596,13 +1461,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Lizzee</td>
-								<td><a href="#">Goodlow</a></td>
-								<td>Technical Services Librarian</td>
-								<td>1 Nov 1961</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
+				            </tr>
+				            <tr>
+				                <td>Rhona Davidson</td>
+				                <td>Integration Specialist</td>
+				                <td>55</td>
+				                <td><a href="#">2010/10/14</a></td>
+				                <td><span class="badge badge-secondary">$97,900</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1618,13 +1483,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Kennedy</td>
-								<td>Haley</td>
-								<td>Senior Marketing Designer</td>
-								<td>18 Dec 1960</td>
-								<td><span class="badge badge-success">Active</span></td>
+				            </tr>
+				            <tr>
+				                <td>Colleen Hurst</td>
+				                <td>Javascript Developer</td>
+				                <td>39</td>
+				                <td><a href="#">2009/09/15</a></td>
+				                <td><span class="badge badge-success">$405,500</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1640,13 +1505,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Chantal</td>
-								<td><a href="#">Nailor</a></td>
-								<td>Technical Services Librarian</td>
-								<td>10 Jan 1980</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
+				            </tr>
+				            <tr>
+				                <td>Sonya Frost</td>
+				                <td>Software Engineer</td>
+				                <td>23</td>
+				                <td><a href="#">2008/12/13</a></td>
+				                <td><span class="badge badge-danger">$103,600</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1662,13 +1527,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Delma</td>
-								<td>Bonds</td>
-								<td>Lead Brand Manager</td>
-								<td>21 Dec 1968</td>
-								<td><span class="badge badge-info">Pending</span></td>
+				            </tr>
+				            <tr>
+				                <td>Jena Gaines</td>
+				                <td>Office Manager</td>
+				                <td>30</td>
+				                <td><a href="#">2008/12/19</a></td>
+				                <td><span class="badge badge-danger">$90,560</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1684,13 +1549,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Roland</td>
-								<td>Salmos</td>
-								<td><a href="#">Senior Program Developer</a></td>
-								<td>5 Jun 1986</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
+				            </tr>
+				            <tr>
+				                <td>Quinn Flynn</td>
+				                <td>Support Lead</td>
+				                <td>22</td>
+				                <td><a href="#">2013/03/03</a></td>
+				                <td><span class="badge badge-info">$342,000</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1706,13 +1571,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Coy</td>
-								<td>Wollard</td>
-								<td>Customer Service Operator</td>
-								<td>12 Oct 1982</td>
-								<td><span class="badge badge-success">Active</span></td>
+				            </tr>
+				            <tr>
+				                <td>Charde Marshall</td>
+				                <td>Regional Director</td>
+				                <td>36</td>
+				                <td><a href="#">2008/10/16</a></td>
+				                <td><span class="badge badge-success">$470,600</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1728,13 +1593,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Maxwell</td>
-								<td>Maben</td>
-								<td>Regional Representative</td>
-								<td>25 Feb 1988</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
+				            </tr>
+				            <tr>
+				                <td>Haley Kennedy</td>
+				                <td>Senior Marketing Designer</td>
+				                <td>43</td>
+				                <td><a href="#">2012/12/18</a></td>
+				                <td><span class="badge badge-danger">$113,500</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1750,13 +1615,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Cicely</td>
-								<td>Sigler</td>
-								<td><a href="#">Senior Research Officer</a></td>
-								<td>15 Mar 1960</td>
-								<td><span class="badge badge-info">Pending</span></td>
+				            </tr>
+				            <tr>
+				                <td>Tatyana Fitzpatrick</td>
+				                <td>Regional Director</td>
+				                <td>19</td>
+				                <td><a href="#">2010/03/17</a></td>
+				                <td><span class="badge badge-info">$385,750</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1772,19 +1637,19 @@
 										</div>
 									</div>
 								</td>
-							</tr>
+				            </tr>
 						</tbody>
 					</table>
 				</div>
 			-->
-				<!-- /basic datatable -->
+				<!-- /single row selection -->
 
 
-				<!-- Striped rows -->
+				<!-- Multiple rows selection -->
 				<!--
 				<div class="card">
 					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Striped rows</h5>
+						<h5 class="card-title">Multiple rows selection</h5>
 						<div class="header-elements">
 							<div class="list-icons">
 		                		<a class="list-icons-item" data-action="collapse"></a>
@@ -1795,27 +1660,27 @@
 					</div>
 
 					<div class="card-body">
-						The <code>DataTables</code> is a highly flexible tool, based upon the foundations of progressive enhancement, and will add advanced interaction controls to any HTML table. DataTables has most features enabled by default, so all you need to do to use it with your own tables is to call the construction function. Searching, ordering, paging etc goodness will be immediately added to the table, as shown in this example. <strong>Datatables support all available table styling.</strong>
+						It can be quite useful at times to provide the user with the option to select rows in a DataTable. This can be done by simply using a <code>click</code> event to add/remove a class on the table rows. The <code>rows().data()</code> method can then be used to get the data for the selected rows. In this case it is simply counting the number of selected rows, but much more complex interactions can easily be developed.
 					</div>
 
-					<table class="table datatable-basic table-striped">
+					<table class="table datatable-selection-multiple">
 						<thead>
 							<tr>
-								<th>First Name</th>
-								<th>Last Name</th>
-								<th>Job Title</th>
-								<th>DOB</th>
-								<th>Status</th>
-								<th class="text-center">Actions</th>
-							</tr>
+				                <th>Name</th>
+				                <th>Position</th>
+				                <th>Age</th>
+				                <th>Start date</th>
+				                <th>Salary</th>
+				                <th class="text-center">Actions</th>
+				            </tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td>Marth</td>
-								<td><a href="#">Enright</a></td>
-								<td>Traffic Court Referee</td>
-								<td>22 Jun 1972</td>
-								<td><span class="badge badge-success">Active</span></td>
+				                <td>Tiger Nixon</td>
+				                <td>System Architect</td>
+				                <td>61</td>
+				                <td><a href="#">2011/04/25</a></td>
+				                <td><span class="badge badge-info">$320,800</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1831,13 +1696,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Jackelyn</td>
-								<td>Weible</td>
-								<td><a href="#">Airline Transport Pilot</a></td>
-								<td>3 Oct 1981</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
+				            </tr>
+				            <tr>
+				                <td>Garrett Winters</td>
+				                <td>Accountant</td>
+				                <td>63</td>
+				                <td><a href="#">2011/07/25</a></td>
+				                <td><span class="badge badge-danger">$170,750</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1853,13 +1718,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Aura</td>
-								<td>Hard</td>
-								<td>Business Services Sales Representative</td>
-								<td>19 Apr 1969</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
+				            </tr>
+				            <tr>
+				                <td>Ashton Cox</td>
+				                <td>Junior Technical Author</td>
+				                <td>66</td>
+				                <td><a href="#">2009/01/12</a></td>
+				                <td><span class="badge badge-secondary">$86,000</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1875,13 +1740,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Nathalie</td>
-								<td><a href="#">Pretty</a></td>
-								<td>Drywall Stripper</td>
-								<td>13 Dec 1977</td>
-								<td><span class="badge badge-info">Pending</span></td>
+				            </tr>
+				            <tr>
+				                <td>Cedric Kelly</td>
+				                <td>Senior Javascript Developer</td>
+				                <td>22</td>
+				                <td><a href="#">2012/03/29</a></td>
+				                <td><span class="badge badge-success">$433,060</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1897,13 +1762,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Sharan</td>
-								<td>Leland</td>
-								<td>Aviation Tactical Readiness Officer</td>
-								<td>30 Dec 1991</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
+				            </tr>
+				            <tr>
+				                <td>Airi Satou</td>
+				                <td>Accountant</td>
+				                <td>33</td>
+				                <td><a href="#">2008/11/28</a></td>
+				                <td><span class="badge badge-danger">$162,700</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1919,13 +1784,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Maxine</td>
-								<td><a href="#">Woldt</a></td>
-								<td><a href="#">Business Services Sales Representative</a></td>
-								<td>17 Oct 1987</td>
-								<td><span class="badge badge-info">Pending</span></td>
+				            </tr>
+				            <tr>
+				                <td>Brielle Williamson</td>
+				                <td>Integration Specialist</td>
+				                <td>61</td>
+				                <td><a href="#">2012/12/02</a></td>
+				                <td><span class="badge badge-info">$372,000</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1941,13 +1806,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Sylvia</td>
-								<td><a href="#">Mcgaughy</a></td>
-								<td>Hemodialysis Technician</td>
-								<td>11 Nov 1983</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
+				            </tr>
+				            <tr>
+				                <td>Herrod Chandler</td>
+				                <td>Sales Assistant</td>
+				                <td>59</td>
+				                <td><a href="#">2012/08/06</a></td>
+				                <td><span class="badge badge-danger">$137,500</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1963,13 +1828,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Lizzee</td>
-								<td><a href="#">Goodlow</a></td>
-								<td>Technical Services Librarian</td>
-								<td>1 Nov 1961</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
+				            </tr>
+				            <tr>
+				                <td>Rhona Davidson</td>
+				                <td>Integration Specialist</td>
+				                <td>55</td>
+				                <td><a href="#">2010/10/14</a></td>
+				                <td><span class="badge badge-secondary">$97,900</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1985,13 +1850,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Kennedy</td>
-								<td>Haley</td>
-								<td>Senior Marketing Designer</td>
-								<td>18 Dec 1960</td>
-								<td><span class="badge badge-success">Active</span></td>
+				            </tr>
+				            <tr>
+				                <td>Colleen Hurst</td>
+				                <td>Javascript Developer</td>
+				                <td>39</td>
+				                <td><a href="#">2009/09/15</a></td>
+				                <td><span class="badge badge-success">$405,500</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2007,13 +1872,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Chantal</td>
-								<td><a href="#">Nailor</a></td>
-								<td>Technical Services Librarian</td>
-								<td>10 Jan 1980</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
+				            </tr>
+				            <tr>
+				                <td>Sonya Frost</td>
+				                <td>Software Engineer</td>
+				                <td>23</td>
+				                <td><a href="#">2008/12/13</a></td>
+				                <td><span class="badge badge-danger">$103,600</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2029,13 +1894,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Delma</td>
-								<td>Bonds</td>
-								<td>Lead Brand Manager</td>
-								<td>21 Dec 1968</td>
-								<td><span class="badge badge-info">Pending</span></td>
+				            </tr>
+				            <tr>
+				                <td>Jena Gaines</td>
+				                <td>Office Manager</td>
+				                <td>30</td>
+				                <td><a href="#">2008/12/19</a></td>
+				                <td><span class="badge badge-danger">$90,560</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2051,13 +1916,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Roland</td>
-								<td>Salmos</td>
-								<td><a href="#">Senior Program Developer</a></td>
-								<td>5 Jun 1986</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
+				            </tr>
+				            <tr>
+				                <td>Quinn Flynn</td>
+				                <td>Support Lead</td>
+				                <td>22</td>
+				                <td><a href="#">2013/03/03</a></td>
+				                <td><span class="badge badge-info">$342,000</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2073,13 +1938,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Coy</td>
-								<td>Wollard</td>
-								<td>Customer Service Operator</td>
-								<td>12 Oct 1982</td>
-								<td><span class="badge badge-success">Active</span></td>
+				            </tr>
+				            <tr>
+				                <td>Charde Marshall</td>
+				                <td>Regional Director</td>
+				                <td>36</td>
+				                <td><a href="#">2008/10/16</a></td>
+				                <td><span class="badge badge-success">$470,600</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2095,13 +1960,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Maxwell</td>
-								<td>Maben</td>
-								<td>Regional Representative</td>
-								<td>25 Feb 1988</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
+				            </tr>
+				            <tr>
+				                <td>Haley Kennedy</td>
+				                <td>Senior Marketing Designer</td>
+				                <td>43</td>
+				                <td><a href="#">2012/12/18</a></td>
+				                <td><span class="badge badge-danger">$113,500</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2117,13 +1982,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Cicely</td>
-								<td>Sigler</td>
-								<td><a href="#">Senior Research Officer</a></td>
-								<td>15 Mar 1960</td>
-								<td><span class="badge badge-info">Pending</span></td>
+				            </tr>
+				            <tr>
+				                <td>Tatyana Fitzpatrick</td>
+				                <td>Regional Director</td>
+				                <td>19</td>
+				                <td><a href="#">2010/03/17</a></td>
+				                <td><span class="badge badge-info">$385,750</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2139,19 +2004,19 @@
 										</div>
 									</div>
 								</td>
-							</tr>
+				            </tr>
 						</tbody>
 					</table>
 				</div>
 			-->
-				<!-- /striped rows -->
+				<!-- /multiple rows selection -->
 
 
-				<!-- Hover rows -->
+				<!-- Individual column searching (text inputs) -->
 				<!--
 				<div class="card">
 					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Hover rows</h5>
+						<h5 class="card-title">Individual column searching</h5>
 						<div class="header-elements">
 							<div class="list-icons">
 		                		<a class="list-icons-item" data-action="collapse"></a>
@@ -2162,27 +2027,27 @@
 					</div>
 
 					<div class="card-body">
-						The <code>DataTables</code> is a highly flexible tool, based upon the foundations of progressive enhancement, and will add advanced interaction controls to any HTML table. DataTables has most features enabled by default, so all you need to do to use it with your own tables is to call the construction function. Searching, ordering, paging etc goodness will be immediately added to the table, as shown in this example. <strong>Datatables support all available table styling.</strong>
+						Individual columns searching with <code>text inputs</code>. The searching functionality that is provided by DataTables is very useful for quickly search through the information in the table - however the search is global, and you may wish to present controls to search on specific columns only. This examples shows text elements being used with the <code>column().search()</code> method to add input controls in the footer of the table for each column.
 					</div>
 
-					<table class="table datatable-basic table-hover">
+					<table class="table datatable-column-search-inputs">
 						<thead>
 							<tr>
-								<th>First Name</th>
-								<th>Last Name</th>
-								<th>Job Title</th>
-								<th>DOB</th>
-								<th>Status</th>
-								<th class="text-center">Actions</th>
-							</tr>
+				                <th>Name</th>
+				                <th>Position</th>
+				                <th>Age</th>
+				                <th>Start date</th>
+				                <th>Salary</th>
+				                <th class="text-center">Actions</th>
+				            </tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td>Marth</td>
-								<td><a href="#">Enright</a></td>
-								<td>Traffic Court Referee</td>
-								<td>22 Jun 1972</td>
-								<td><span class="badge badge-success">Active</span></td>
+				                <td>Tiger Nixon</td>
+				                <td>System Architect</td>
+				                <td>61</td>
+				                <td><a href="#">2011/04/25</a></td>
+				                <td><span class="badge badge-info">$320,800</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2198,13 +2063,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Jackelyn</td>
-								<td>Weible</td>
-								<td><a href="#">Airline Transport Pilot</a></td>
-								<td>3 Oct 1981</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
+				            </tr>
+				            <tr>
+				                <td>Garrett Winters</td>
+				                <td>Accountant</td>
+				                <td>63</td>
+				                <td><a href="#">2011/07/25</a></td>
+				                <td><span class="badge badge-danger">$170,750</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2220,13 +2085,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Aura</td>
-								<td>Hard</td>
-								<td>Business Services Sales Representative</td>
-								<td>19 Apr 1969</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
+				            </tr>
+				            <tr>
+				                <td>Ashton Cox</td>
+				                <td>Junior Technical Author</td>
+				                <td>66</td>
+				                <td><a href="#">2009/01/12</a></td>
+				                <td><span class="badge badge-secondary">$86,000</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2242,13 +2107,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Nathalie</td>
-								<td><a href="#">Pretty</a></td>
-								<td>Drywall Stripper</td>
-								<td>13 Dec 1977</td>
-								<td><span class="badge badge-info">Pending</span></td>
+				            </tr>
+				            <tr>
+				                <td>Cedric Kelly</td>
+				                <td>Senior Javascript Developer</td>
+				                <td>22</td>
+				                <td><a href="#">2012/03/29</a></td>
+				                <td><span class="badge badge-success">$433,060</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2264,13 +2129,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Sharan</td>
-								<td>Leland</td>
-								<td>Aviation Tactical Readiness Officer</td>
-								<td>30 Dec 1991</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
+				            </tr>
+				            <tr>
+				                <td>Airi Satou</td>
+				                <td>Accountant</td>
+				                <td>33</td>
+				                <td><a href="#">2008/11/28</a></td>
+				                <td><span class="badge badge-danger">$162,700</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2286,13 +2151,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Maxine</td>
-								<td><a href="#">Woldt</a></td>
-								<td><a href="#">Business Services Sales Representative</a></td>
-								<td>17 Oct 1987</td>
-								<td><span class="badge badge-info">Pending</span></td>
+				            </tr>
+				            <tr>
+				                <td>Brielle Williamson</td>
+				                <td>Integration Specialist</td>
+				                <td>61</td>
+				                <td><a href="#">2012/12/02</a></td>
+				                <td><span class="badge badge-info">$372,000</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2308,13 +2173,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Sylvia</td>
-								<td><a href="#">Mcgaughy</a></td>
-								<td>Hemodialysis Technician</td>
-								<td>11 Nov 1983</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
+				            </tr>
+				            <tr>
+				                <td>Herrod Chandler</td>
+				                <td>Sales Assistant</td>
+				                <td>59</td>
+				                <td><a href="#">2012/08/06</a></td>
+				                <td><span class="badge badge-danger">$137,500</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2330,13 +2195,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Lizzee</td>
-								<td><a href="#">Goodlow</a></td>
-								<td>Technical Services Librarian</td>
-								<td>1 Nov 1961</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
+				            </tr>
+				            <tr>
+				                <td>Rhona Davidson</td>
+				                <td>Integration Specialist</td>
+				                <td>55</td>
+				                <td><a href="#">2010/10/14</a></td>
+				                <td><span class="badge badge-secondary">$97,900</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2352,13 +2217,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Kennedy</td>
-								<td>Haley</td>
-								<td>Senior Marketing Designer</td>
-								<td>18 Dec 1960</td>
-								<td><span class="badge badge-success">Active</span></td>
+				            </tr>
+				            <tr>
+				                <td>Colleen Hurst</td>
+				                <td>Javascript Developer</td>
+				                <td>39</td>
+				                <td><a href="#">2009/09/15</a></td>
+				                <td><span class="badge badge-success">$405,500</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2374,13 +2239,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Chantal</td>
-								<td><a href="#">Nailor</a></td>
-								<td>Technical Services Librarian</td>
-								<td>10 Jan 1980</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
+				            </tr>
+				            <tr>
+				                <td>Sonya Frost</td>
+				                <td>Software Engineer</td>
+				                <td>23</td>
+				                <td><a href="#">2008/12/13</a></td>
+				                <td><span class="badge badge-danger">$103,600</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2396,13 +2261,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Delma</td>
-								<td>Bonds</td>
-								<td>Lead Brand Manager</td>
-								<td>21 Dec 1968</td>
-								<td><span class="badge badge-info">Pending</span></td>
+				            </tr>
+				            <tr>
+				                <td>Jena Gaines</td>
+				                <td>Office Manager</td>
+				                <td>30</td>
+				                <td><a href="#">2008/12/19</a></td>
+				                <td><span class="badge badge-danger">$90,560</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2418,13 +2283,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Roland</td>
-								<td>Salmos</td>
-								<td><a href="#">Senior Program Developer</a></td>
-								<td>5 Jun 1986</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
+				            </tr>
+				            <tr>
+				                <td>Quinn Flynn</td>
+				                <td>Support Lead</td>
+				                <td>22</td>
+				                <td><a href="#">2013/03/03</a></td>
+				                <td><span class="badge badge-info">$342,000</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2440,13 +2305,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Coy</td>
-								<td>Wollard</td>
-								<td>Customer Service Operator</td>
-								<td>12 Oct 1982</td>
-								<td><span class="badge badge-success">Active</span></td>
+				            </tr>
+				            <tr>
+				                <td>Charde Marshall</td>
+				                <td>Regional Director</td>
+				                <td>36</td>
+				                <td><a href="#">2008/10/16</a></td>
+				                <td><span class="badge badge-success">$470,600</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2462,13 +2327,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Maxwell</td>
-								<td>Maben</td>
-								<td>Regional Representative</td>
-								<td>25 Feb 1988</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
+				            </tr>
+				            <tr>
+				                <td>Haley Kennedy</td>
+				                <td>Senior Marketing Designer</td>
+				                <td>43</td>
+				                <td><a href="#">2012/12/18</a></td>
+				                <td><span class="badge badge-danger">$113,500</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2484,13 +2349,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Cicely</td>
-								<td>Sigler</td>
-								<td><a href="#">Senior Research Officer</a></td>
-								<td>15 Mar 1960</td>
-								<td><span class="badge badge-info">Pending</span></td>
+				            </tr>
+				            <tr>
+				                <td>Tatyana Fitzpatrick</td>
+				                <td>Regional Director</td>
+				                <td>19</td>
+				                <td><a href="#">2010/03/17</a></td>
+				                <td><span class="badge badge-info">$385,750</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2506,19 +2371,29 @@
 										</div>
 									</div>
 								</td>
-							</tr>
+				            </tr>
 						</tbody>
+						<tfoot>
+							<tr>
+				                <td>Name</td>
+				                <td>Position</td>
+				                <td>Age</td>
+				                <td>Start date</td>
+				                <td>Salary</td>
+				                <td></td>
+				            </tr>
+						</tfoot>
 					</table>
 				</div>
 			-->
-				<!-- /hover rows -->
+				<!-- /individual column searching (text inputs) -->
 
 
-				<!-- Bordered table -->
+				<!-- Individual column searching (selects) -->
 				<!--
 				<div class="card">
 					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Bordered table</h5>
+						<h5 class="card-title">Individual column searching</h5>
 						<div class="header-elements">
 							<div class="list-icons">
 		                		<a class="list-icons-item" data-action="collapse"></a>
@@ -2529,27 +2404,27 @@
 					</div>
 
 					<div class="card-body">
-						The <code>DataTables</code> is a highly flexible tool, based upon the foundations of progressive enhancement, and will add advanced interaction controls to any HTML table. DataTables has most features enabled by default, so all you need to do to use it with your own tables is to call the construction function. Searching, ordering, paging etc goodness will be immediately added to the table, as shown in this example. <strong>Datatables support all available table styling.</strong>
+						Individual columns searching with <code>selects</code>. This example is almost identical to text based individual column example and provides the same functionality, but in this case using <code>select</code> input controls. After the table is initialised, the API is used to build the select inputs through the use of the <code>column().data()</code> method to get the data for each column in turn.
 					</div>
 
-					<table class="table datatable-basic table-bordered">
+					<table class="table datatable-column-search-selects">
 						<thead>
 							<tr>
-								<th>First Name</th>
-								<th>Last Name</th>
-								<th>Job Title</th>
-								<th>DOB</th>
-								<th>Status</th>
-								<th class="text-center">Actions</th>
-							</tr>
+				                <th>Name</th>
+				                <th>Position</th>
+				                <th>Age</th>
+				                <th>Start date</th>
+				                <th>Salary</th>
+				                <th class="text-center">Actions</th>
+				            </tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td>Marth</td>
-								<td><a href="#">Enright</a></td>
-								<td>Traffic Court Referee</td>
-								<td>22 Jun 1972</td>
-								<td><span class="badge badge-success">Active</span></td>
+				                <td>Tiger Nixon</td>
+				                <td>System Architect</td>
+				                <td>61</td>
+				                <td><a href="#">2011/04/25</a></td>
+				                <td><span class="badge badge-info">$320,800</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2565,13 +2440,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Jackelyn</td>
-								<td>Weible</td>
-								<td><a href="#">Airline Transport Pilot</a></td>
-								<td>3 Oct 1981</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
+				            </tr>
+				            <tr>
+				                <td>Garrett Winters</td>
+				                <td>Accountant</td>
+				                <td>63</td>
+				                <td><a href="#">2011/07/25</a></td>
+				                <td><span class="badge badge-danger">$170,750</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2587,13 +2462,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Aura</td>
-								<td>Hard</td>
-								<td>Business Services Sales Representative</td>
-								<td>19 Apr 1969</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
+				            </tr>
+				            <tr>
+				                <td>Ashton Cox</td>
+				                <td>Junior Technical Author</td>
+				                <td>66</td>
+				                <td><a href="#">2009/01/12</a></td>
+				                <td><span class="badge badge-secondary">$86,000</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2609,13 +2484,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Nathalie</td>
-								<td><a href="#">Pretty</a></td>
-								<td>Drywall Stripper</td>
-								<td>13 Dec 1977</td>
-								<td><span class="badge badge-info">Pending</span></td>
+				            </tr>
+				            <tr>
+				                <td>Cedric Kelly</td>
+				                <td>Senior Javascript Developer</td>
+				                <td>22</td>
+				                <td><a href="#">2012/03/29</a></td>
+				                <td><span class="badge badge-success">$433,060</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2631,13 +2506,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Sharan</td>
-								<td>Leland</td>
-								<td>Aviation Tactical Readiness Officer</td>
-								<td>30 Dec 1991</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
+				            </tr>
+				            <tr>
+				                <td>Airi Satou</td>
+				                <td>Accountant</td>
+				                <td>33</td>
+				                <td><a href="#">2008/11/28</a></td>
+				                <td><span class="badge badge-danger">$162,700</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2653,13 +2528,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Maxine</td>
-								<td><a href="#">Woldt</a></td>
-								<td><a href="#">Business Services Sales Representative</a></td>
-								<td>17 Oct 1987</td>
-								<td><span class="badge badge-info">Pending</span></td>
+				            </tr>
+				            <tr>
+				                <td>Brielle Williamson</td>
+				                <td>Integration Specialist</td>
+				                <td>61</td>
+				                <td><a href="#">2012/12/02</a></td>
+				                <td><span class="badge badge-info">$372,000</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2675,13 +2550,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Sylvia</td>
-								<td><a href="#">Mcgaughy</a></td>
-								<td>Hemodialysis Technician</td>
-								<td>11 Nov 1983</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
+				            </tr>
+				            <tr>
+				                <td>Herrod Chandler</td>
+				                <td>Sales Assistant</td>
+				                <td>59</td>
+				                <td><a href="#">2012/08/06</a></td>
+				                <td><span class="badge badge-danger">$137,500</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2697,13 +2572,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Lizzee</td>
-								<td><a href="#">Goodlow</a></td>
-								<td>Technical Services Librarian</td>
-								<td>1 Nov 1961</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
+				            </tr>
+				            <tr>
+				                <td>Rhona Davidson</td>
+				                <td>Integration Specialist</td>
+				                <td>55</td>
+				                <td><a href="#">2010/10/14</a></td>
+				                <td><span class="badge badge-secondary">$97,900</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2719,13 +2594,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Kennedy</td>
-								<td>Haley</td>
-								<td>Senior Marketing Designer</td>
-								<td>18 Dec 1960</td>
-								<td><span class="badge badge-success">Active</span></td>
+				            </tr>
+				            <tr>
+				                <td>Colleen Hurst</td>
+				                <td>Javascript Developer</td>
+				                <td>39</td>
+				                <td><a href="#">2009/09/15</a></td>
+				                <td><span class="badge badge-success">$405,500</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2741,13 +2616,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Chantal</td>
-								<td><a href="#">Nailor</a></td>
-								<td>Technical Services Librarian</td>
-								<td>10 Jan 1980</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
+				            </tr>
+				            <tr>
+				                <td>Sonya Frost</td>
+				                <td>Software Engineer</td>
+				                <td>23</td>
+				                <td><a href="#">2008/12/13</a></td>
+				                <td><span class="badge badge-danger">$103,600</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2763,13 +2638,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Delma</td>
-								<td>Bonds</td>
-								<td>Lead Brand Manager</td>
-								<td>21 Dec 1968</td>
-								<td><span class="badge badge-info">Pending</span></td>
+				            </tr>
+				            <tr>
+				                <td>Jena Gaines</td>
+				                <td>Office Manager</td>
+				                <td>30</td>
+				                <td><a href="#">2008/12/19</a></td>
+				                <td><span class="badge badge-danger">$90,560</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2785,13 +2660,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Roland</td>
-								<td>Salmos</td>
-								<td><a href="#">Senior Program Developer</a></td>
-								<td>5 Jun 1986</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
+				            </tr>
+				            <tr>
+				                <td>Quinn Flynn</td>
+				                <td>Support Lead</td>
+				                <td>22</td>
+				                <td><a href="#">2013/03/03</a></td>
+				                <td><span class="badge badge-info">$342,000</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2807,13 +2682,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Coy</td>
-								<td>Wollard</td>
-								<td>Customer Service Operator</td>
-								<td>12 Oct 1982</td>
-								<td><span class="badge badge-success">Active</span></td>
+				            </tr>
+				            <tr>
+				                <td>Charde Marshall</td>
+				                <td>Regional Director</td>
+				                <td>36</td>
+				                <td><a href="#">2008/10/16</a></td>
+				                <td><span class="badge badge-success">$470,600</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2829,13 +2704,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Maxwell</td>
-								<td>Maben</td>
-								<td>Regional Representative</td>
-								<td>25 Feb 1988</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
+				            </tr>
+				            <tr>
+				                <td>Haley Kennedy</td>
+				                <td>Senior Marketing Designer</td>
+				                <td>43</td>
+				                <td><a href="#">2012/12/18</a></td>
+				                <td><span class="badge badge-danger">$113,500</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2851,13 +2726,13 @@
 										</div>
 									</div>
 								</td>
-							</tr>
-							<tr>
-								<td>Cicely</td>
-								<td>Sigler</td>
-								<td><a href="#">Senior Research Officer</a></td>
-								<td>15 Mar 1960</td>
-								<td><span class="badge badge-info">Pending</span></td>
+				            </tr>
+				            <tr>
+				                <td>Tatyana Fitzpatrick</td>
+				                <td>Regional Director</td>
+				                <td>19</td>
+				                <td><a href="#">2010/03/17</a></td>
+				                <td><span class="badge badge-info">$385,750</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -2873,379 +2748,22 @@
 										</div>
 									</div>
 								</td>
-							</tr>
+				            </tr>
 						</tbody>
+						<tfoot>
+							<tr>
+				                <td>Name</td>
+				                <td>Position</td>
+				                <td>Age</td>
+				                <td>Start date</td>
+				                <td>Salary</td>
+				                <td></td>
+				            </tr>
+						</tfoot>
 					</table>
 				</div>
 			-->
-				<!-- /bordered table -->
-
-
-				<!-- Style combinations -->
-				<!--
-				<div class="card">
-					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Style combinations</h5>
-						<div class="header-elements">
-							<div class="list-icons">
-		                		<a class="list-icons-item" data-action="collapse"></a>
-		                		<a class="list-icons-item" data-action="reload"></a>
-		                		<a class="list-icons-item" data-action="remove"></a>
-		                	</div>
-	                	</div>
-					</div>
-
-					<div class="card-body">
-						The <code>DataTables</code> is a highly flexible tool, based upon the foundations of progressive enhancement, and will add advanced interaction controls to any HTML table. DataTables has most features enabled by default, so all you need to do to use it with your own tables is to call the construction function. Searching, ordering, paging etc goodness will be immediately added to the table, as shown in this example. <strong>Datatables support all available table styling.</strong>
-					</div>
-
-					<table class="table datatable-basic table-bordered table-striped table-hover">
-						<thead>
-							<tr>
-								<th>First Name</th>
-								<th>Last Name</th>
-								<th>Job Title</th>
-								<th>DOB</th>
-								<th>Status</th>
-								<th class="text-center">Actions</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Marth</td>
-								<td><a href="#">Enright</a></td>
-								<td>Traffic Court Referee</td>
-								<td>22 Jun 1972</td>
-								<td><span class="badge badge-success">Active</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Jackelyn</td>
-								<td>Weible</td>
-								<td><a href="#">Airline Transport Pilot</a></td>
-								<td>3 Oct 1981</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Aura</td>
-								<td>Hard</td>
-								<td>Business Services Sales Representative</td>
-								<td>19 Apr 1969</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Nathalie</td>
-								<td><a href="#">Pretty</a></td>
-								<td>Drywall Stripper</td>
-								<td>13 Dec 1977</td>
-								<td><span class="badge badge-info">Pending</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Sharan</td>
-								<td>Leland</td>
-								<td>Aviation Tactical Readiness Officer</td>
-								<td>30 Dec 1991</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Maxine</td>
-								<td><a href="#">Woldt</a></td>
-								<td><a href="#">Business Services Sales Representative</a></td>
-								<td>17 Oct 1987</td>
-								<td><span class="badge badge-info">Pending</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Sylvia</td>
-								<td><a href="#">Mcgaughy</a></td>
-								<td>Hemodialysis Technician</td>
-								<td>11 Nov 1983</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Lizzee</td>
-								<td><a href="#">Goodlow</a></td>
-								<td>Technical Services Librarian</td>
-								<td>1 Nov 1961</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Kennedy</td>
-								<td>Haley</td>
-								<td>Senior Marketing Designer</td>
-								<td>18 Dec 1960</td>
-								<td><span class="badge badge-success">Active</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Chantal</td>
-								<td><a href="#">Nailor</a></td>
-								<td>Technical Services Librarian</td>
-								<td>10 Jan 1980</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Delma</td>
-								<td>Bonds</td>
-								<td>Lead Brand Manager</td>
-								<td>21 Dec 1968</td>
-								<td><span class="badge badge-info">Pending</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Roland</td>
-								<td>Salmos</td>
-								<td><a href="#">Senior Program Developer</a></td>
-								<td>5 Jun 1986</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Coy</td>
-								<td>Wollard</td>
-								<td>Customer Service Operator</td>
-								<td>12 Oct 1982</td>
-								<td><span class="badge badge-success">Active</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Maxwell</td>
-								<td>Maben</td>
-								<td>Regional Representative</td>
-								<td>25 Feb 1988</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Cicely</td>
-								<td>Sigler</td>
-								<td><a href="#">Senior Research Officer</a></td>
-								<td>15 Mar 1960</td>
-								<td><span class="badge badge-info">Pending</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-			-->
-				<!-- /style combinations -->
+				<!-- /individual column searching (selects) -->
 
 			</div>
 			<!-- /content area -->

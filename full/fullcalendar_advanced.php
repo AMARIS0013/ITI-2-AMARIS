@@ -8,7 +8,7 @@
 
 	<!-- Global stylesheets -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
-	<link href="../../../../global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+	<link href="global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/layout.min.css" rel="stylesheet" type="text/css">
@@ -17,18 +17,22 @@
 	<!-- /global stylesheets -->
 
 	<!-- Core JS files -->
-	<script src="../../../../global_assets/js/main/jquery.min.js"></script>
-	<script src="../../../../global_assets/js/main/bootstrap.bundle.min.js"></script>
-	<script src="../../../../global_assets/js/plugins/loaders/blockui.min.js"></script>
+	<script src="global_assets/js/main/jquery.min.js"></script>
+	<script src="global_assets/js/main/bootstrap.bundle.min.js"></script>
+	<script src="global_assets/js/plugins/loaders/blockui.min.js"></script>
 	<!-- /core JS files -->
 
 	<!-- Theme JS files -->
-	<script src="../../../../global_assets/js/plugins/forms/styling/uniform.min.js"></script>
-	<script src="../../../../global_assets/js/plugins/forms/styling/switchery.min.js"></script>
-	<script src="../../../../global_assets/js/plugins/forms/inputs/touchspin.min.js"></script>
+	<script src="global_assets/js/plugins/forms/styling/switchery.min.js"></script>
+	<script src="global_assets/js/plugins/ui/fullcalendar/core/main.min.js"></script>
+	<script src="global_assets/js/plugins/ui/fullcalendar/daygrid/main.min.js"></script>
+	<script src="global_assets/js/plugins/ui/fullcalendar/timegrid/main.min.js"></script>
+	<script src="global_assets/js/plugins/ui/fullcalendar/list/main.min.js"></script>
+	<script src="global_assets/js/plugins/ui/fullcalendar/interaction/main.min.js"></script>
+	<script src="global_assets/js/plugins/ui/fullcalendar/core/locales/ar.js"></script>
 
 	<script src="assets/js/app.js"></script>
-	<script src="../../../../global_assets/js/demo_pages/form_input_groups.js"></script>
+	<script src="global_assets/js/demo_pages/fullcalendar_advanced.js"></script>
 	<!-- /theme JS files -->
 
 </head>
@@ -39,7 +43,7 @@
 	<div class="navbar navbar-expand-md navbar-dark">
 		<div class="navbar-brand">
 			<a href="index.html" class="d-inline-block">
-				<img src="../../../../global_assets/images/logo_light.png" alt="">
+				<img src="global_assets/images/logo_light.png" alt="">
 			</a>
 		</div>
 
@@ -162,7 +166,7 @@
 							<ul class="media-list">
 								<li class="media">
 									<div class="mr-3">
-										<img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
 									</div>
 									<div class="media-body">
 										<a href="#" class="media-title font-weight-semibold">Jordana Ansley</a>
@@ -173,7 +177,7 @@
 
 								<li class="media">
 									<div class="mr-3">
-										<img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
 									</div>
 									<div class="media-body">
 										<a href="#" class="media-title font-weight-semibold">Will Brason</a>
@@ -184,7 +188,7 @@
 
 								<li class="media">
 									<div class="mr-3">
-										<img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
 									</div>
 									<div class="media-body">
 										<a href="#" class="media-title font-weight-semibold">Hanna Walden</a>
@@ -195,7 +199,7 @@
 
 								<li class="media">
 									<div class="mr-3">
-										<img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
 									</div>
 									<div class="media-body">
 										<a href="#" class="media-title font-weight-semibold">Dori Laperriere</a>
@@ -206,7 +210,7 @@
 
 								<li class="media">
 									<div class="mr-3">
-										<img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
 									</div>
 									<div class="media-body">
 										<a href="#" class="media-title font-weight-semibold">Vanessa Aurelius</a>
@@ -241,7 +245,7 @@
 							<ul class="media-list">
 								<li class="media">
 									<div class="mr-3 position-relative">
-										<img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
 									</div>
 
 									<div class="media-body">
@@ -258,7 +262,7 @@
 
 								<li class="media">
 									<div class="mr-3 position-relative">
-										<img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
 									</div>
 
 									<div class="media-body">
@@ -275,7 +279,7 @@
 
 								<li class="media">
 									<div class="mr-3">
-										<img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
 									</div>
 									<div class="media-body">
 										<div class="media-title">
@@ -291,7 +295,7 @@
 
 								<li class="media">
 									<div class="mr-3">
-										<img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
 									</div>
 									<div class="media-body">
 										<div class="media-title">
@@ -307,7 +311,7 @@
 
 								<li class="media">
 									<div class="mr-3">
-										<img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
 									</div>
 									<div class="media-body">
 										<div class="media-title">
@@ -331,8 +335,8 @@
 
 				<li class="nav-item dropdown dropdown-user">
 					<a href="#" class="navbar-nav-link d-flex align-items-center dropdown-toggle" data-toggle="dropdown">
-						<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle mr-2" height="34" alt="">
-						<span>Victoria</span>
+						<img src="global_assets/images/placeholders/placeholder.jpg" class="rounded-circle mr-2" height="34" alt="">
+						<span>AMARIS</span>
 					</a>
 
 					<div class="dropdown-menu dropdown-menu-right">
@@ -361,7 +365,7 @@
 				<a href="#" class="sidebar-mobile-main-toggle">
 					<i class="icon-arrow-left8"></i>
 				</a>
-				Navigation
+				MENÚ
 				<a href="#" class="sidebar-mobile-expand">
 					<i class="icon-screen-full"></i>
 					<i class="icon-screen-normal"></i>
@@ -378,13 +382,13 @@
 					<div class="card-body">
 						<div class="media">
 							<div class="mr-3">
-								<a href="#"><img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="38" height="38" class="rounded-circle" alt=""></a>
+								<a href="#"><img src="global_assets/images/placeholders/placeholder.jpg" width="38" height="38" class="rounded-circle" alt=""></a>
 							</div>
 
 							<div class="media-body">
-								<div class="media-title font-weight-semibold">Victoria Baker</div>
+								<div class="media-title font-weight-semibold">AMARIS</div>
 								<div class="font-size-xs opacity-50">
-									<i class="icon-pin font-size-sm"></i> &nbsp;Santa Ana, CA
+									<i class="icon-pin font-size-sm"></i> &nbsp;CIUDAD VICTORIA
 								</div>
 							</div>
 
@@ -398,74 +402,75 @@
 
 
 				<!-- Main navigation -->
-				<div class="card card-sidebar-mobile">
+			<div class="card card-sidebar-mobile">
 					<ul class="nav nav-sidebar" data-nav-type="accordion">
 
 						<!-- Main -->
-						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Main</div> <i class="icon-menu" title="Main"></i></li>
+						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">CONTENIDO</div> <i class="icon-menu" title="Main"></i></li>
 						<li class="nav-item">
-							<a href="index.html" class="nav-link">
+							<a href="index.php" class="nav-link active">
 								<i class="icon-home4"></i>
 								<span>
-									Dashboard
-									<span class="d-block font-weight-normal opacity-50">No active orders</span>
+									INICIO
 								</span>
 							</a>
 						</li>
+						
 						<li class="nav-item nav-item-submenu">
-							<a href="#" class="nav-link"><i class="icon-copy"></i> <span>Layouts</span></a>
+							<a href="#" class="nav-link"><i class="icon-people"></i> <span>EMPLEADOS</span></a>
 
-							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
-								<li class="nav-item"><a href="index.html" class="nav-link active">Default layout</a></li>
-								<li class="nav-item"><a href="../../../../layout_2/LTR/default/full/index.html" class="nav-link">Layout 2</a></li>
-								<li class="nav-item"><a href="../../../../layout_3/LTR/default/full/index.html" class="nav-link">Layout 3</a></li>
-								<li class="nav-item"><a href="../../../../layout_4/LTR/default/full/index.html" class="nav-link">Layout 4</a></li>
-								<li class="nav-item"><a href="../../../../layout_5/LTR/default/full/index.html" class="nav-link">Layout 5</a></li>
-								<li class="nav-item"><a href="../../../../layout_6/LTR/default/full/index.html" class="nav-link disabled">Layout 6 <span class="badge bg-transparent align-self-center ml-auto">Coming soon</span></a></li>
+							<ul class="nav nav-group-sub" data-submenu-title="Basic tables">
+								<li class="nav-item"><a href="table_basic.php" class="nav-link">TABLA DE EMPLEADOS</a></li>
+								<li class="nav-item"><a href="table_sizing.php" class="nav-link">SOLICITUD DE REGISTRO</a></li>
+								<li class="nav-item"><a href="table_borders.php" class="nav-link">EDITAR EMPLEADOS</a></li>
+								<li class="nav-item nav-item-submenu">
+									<a href="#" class="nav-link"><i class="icon-airplane2"></i> <span>VACACIONES</span></a>
+									<ul class="nav nav-group-sub">
+								<li class="nav-item"><a href="datatable_responsive.php" class="nav-link">lista</a></li>
+								<li class="nav-item"><a href="datatable_extension_buttons_flash.php" class="nav-link">Solicitar</a></li>
+								<li class="nav-item"><a href="table_styling.php" class="nav-link">Editar</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+							<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link"><i class="icon-grid7"></i> <span>DEPARTAMENTOS</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
+								<li class="nav-item"><a href="datatable_basic.php" class="nav-link">AGREGAR</a></li>
+								<li class="nav-item"><a href="datatable_styling.php" class="nav-link">EDITAR</a></li>
+								<li class="nav-item"><a href="datatable_advanced.php" class="nav-link">ENLISTAR</a></li>
 							</ul>
 						</li>
 						<li class="nav-item nav-item-submenu">
-							<a href="#" class="nav-link"><i class="icon-color-sampler"></i> <span>Themes</span></a>
-
-							<ul class="nav nav-group-sub" data-submenu-title="Themes">
-								<li class="nav-item"><a href="index.html" class="nav-link active">Default</a></li>
-								<li class="nav-item"><a href="../../../LTR/material/full/index.html" class="nav-link">Material</a></li>
-								<li class="nav-item"><a href="../../../LTR/dark/full/index.html" class="nav-link disabled">Dark <span class="badge bg-transparent align-self-center ml-auto">Coming soon</span></a></li>
-								<li class="nav-item"><a href="../../../LTR/clean/full/index.html" class="nav-link disabled">Clean <span class="badge bg-transparent align-self-center ml-auto">Coming soon</span></a></li>
+							<a href="#" class="nav-link"><i class="icon-home4"></i> <span>EMPRESA</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
+								<li class="nav-item"><a href="datatable_extension_select.php" class="nav-link">LISTA</a></li>
+								<li class="nav-item"><a href="datatable_extension_row_reorder.php" class="nav-link">AGREGAR</a></li>
+								<li class="nav-item"><a href="datatable_data_sources.php" class="nav-link">MODIFICAR</a></li>
+                            </ul>
+						</li>
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link"><i class="icon-users4"></i> <span>ALUMNOS</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Basic tables">
+								<li class="nav-item"><a href="datatable_api.php" class="nav-link">ENLISTAR</a></li>
+								<li class="nav-item"><a href="content_cards_draggable.php" class="nav-link">EDITAR</a></li>
+								<li class="nav-item"><a href="form_input_groups.php" class="nav-link">AGREGAR</a></li>
+								<li class="nav-item nav-item-submenu">
 							</ul>
 						</li>
 						<li class="nav-item nav-item-submenu">
-							<a href="#" class="nav-link"><i class="icon-stack"></i> <span>Starter kit</span></a>
-
-							<ul class="nav nav-group-sub" data-submenu-title="Starter kit">
-								<li class="nav-item"><a href="../seed/layout_nav_horizontal.html" class="nav-link">Horizontal navigation</a></li>
-								<li class="nav-item"><a href="../seed/sidebar_none.html" class="nav-link">No sidebar</a></li>
-								<li class="nav-item"><a href="../seed/sidebar_main.html" class="nav-link">1 sidebar</a></li>
+							<a href="#" class="nav-link"><i class="icon-brain"></i> <span>TUTORIAS</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Basic tables">
+								<li class="nav-item"><a href="handsontable_types.php" class="nav-link">LISTADO</a></li>
+								<li class="nav-item"><a href="fullcalendar_advanced.php" class="nav-link">AGREGAR</a></li>
 								<li class="nav-item nav-item-submenu">
-									<a href="#" class="nav-link">2 sidebars</a>
-									<ul class="nav nav-group-sub">
-										<li class="nav-item"><a href="../seed/sidebar_secondary.html" class="nav-link">Secondary sidebar</a></li>
-										<li class="nav-item"><a href="../seed/sidebar_right.html" class="nav-link">Right sidebar</a></li>
-									</ul>
-								</li>
-								<li class="nav-item nav-item-submenu">
-									<a href="#" class="nav-link">3 sidebars</a>
-									<ul class="nav nav-group-sub">
-										<li class="nav-item"><a href="../seed/sidebar_right_hidden.html" class="nav-link">Right sidebar hidden</a></li>
-										<li class="nav-item"><a href="../seed/sidebar_right_visible.html" class="nav-link">Right sidebar visible</a></li>
-									</ul>
-								</li>
-								<li class="nav-item nav-item-submenu">
-									<a href="#" class="nav-link">Content sidebars</a>
-									<ul class="nav nav-group-sub">
-										<li class="nav-item"><a href="../seed/sidebar_content_left.html" class="nav-link">Left sidebar</a></li>
-										<li class="nav-item"><a href="../seed/sidebar_content_right.html" class="nav-link">Right sidebar</a></li>
-									</ul>
-								</li>
-								<li class="nav-item"><a href="../seed/layout_boxed.html" class="nav-link">Boxed layout</a></li>
-								<li class="nav-item-divider"></li>
-								<li class="nav-item"><a href="../seed/navbar_fixed_main.html" class="nav-link">Fixed main navbar</a></li>
-								<li class="nav-item"><a href="../seed/navbar_fixed_secondary.html" class="nav-link">Fixed secondary navbar</a></li>
+							</ul>
+						</li>
+                    	<li class="nav-item nav-item-submenu">
+							<a href="form_inputs_grid.php"class="nav-link"><i class="icon-grid7"></i> <span>PAGOS DE TRANSPORTE</span></a>
+							</ul>
+						</li>
+								<!--
 								<li class="nav-item"><a href="../seed/navbar_fixed_both.html" class="nav-link">Both navbars fixed</a></li>
 								<li class="nav-item"><a href="../seed/layout_fixed.html" class="nav-link">Fixed layout</a></li>
 							</ul>
@@ -478,18 +483,20 @@
 							</a>
 						</li>
 						<li class="nav-item"><a href="../../../RTL/default/full/index.html" class="nav-link"><i class="icon-width"></i> <span>RTL version</span></a></li>
+					-->
 						<!-- /main -->
 
 						<!-- Forms -->
+						<!--
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Forms</div> <i class="icon-menu" title="Forms"></i></li>
-						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
+						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-pencil3"></i> <span>Form components</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Form components">
 								<li class="nav-item"><a href="form_inputs.html" class="nav-link">Basic inputs</a></li>
 								<li class="nav-item"><a href="form_checkboxes_radios.html" class="nav-link">Checkboxes &amp; radios</a></li>
 								<li class="nav-item"><a href="form_select2.html" class="nav-link">Select2 selects</a></li>
 								<li class="nav-item"><a href="form_multiselect.html" class="nav-link">Bootstrap multiselect</a></li>
-								<li class="nav-item"><a href="form_input_groups.html" class="nav-link active">Input groups</a></li>
+								<li class="nav-item"><a href="form_input_groups.html" class="nav-link">Input groups</a></li>
 								<li class="nav-item"><a href="form_controls_extended.html" class="nav-link">Extended controls</a></li>
 								<li class="nav-item"><a href="form_floating_labels.html" class="nav-link">Floating labels</a></li>
 								<li class="nav-item"><a href="form_tag_inputs.html" class="nav-link">Tag inputs</a></li>
@@ -535,9 +542,11 @@
 								<li class="nav-item"><a href="form_layout_horizontal_styled.html" class="nav-link disabled">Custom styles <span class="badge bg-transparent align-self-center ml-auto">Coming soon</span></a></li>
 							</ul>
 						</li>
+					-->
 						<!-- /forms -->
 
 						<!-- Components -->
+						<!--
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Components</div> <i class="icon-menu" title="Components"></i></li>
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-grid"></i> <span>Basic components</span></a>
@@ -640,9 +649,11 @@
 								<li class="nav-item"><a href="icons_fontawesome.html" class="nav-link">Font awesome</a></li>
 							</ul>
 						</li>
+					-->
 						<!-- /components -->
 
 						<!-- Layout -->
+						<!--
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Layout</div> <i class="icon-menu" title="Layout options"></i></li>
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-stack2"></i> <span>Page layouts</span></a>
@@ -805,9 +816,11 @@
 								<li class="nav-item"><a href="#" class="nav-link"><i class="icon-chrome"></i> Second level</a></li>
 							</ul>
 						</li>
+					-->
 						<!-- /layout -->
 
 						<!-- Data visualization -->
+						<!--
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Data visualization</div> <i class="icon-menu" title="Data visualization"></i></li>
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-graph"></i> <span>Echarts library</span></a>
@@ -909,9 +922,11 @@
 								<li class="nav-item"><a href="maps_echarts.html" class="nav-link disabled">ECharts maps <span class="badge bg-transparent align-self-center ml-auto">Coming soon</span></a></li>
 							</ul>
 						</li>
+					-->
 						<!-- /data visualization -->
 
 						<!-- Extensions -->
+						<!--
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Extensions</div> <i class="icon-menu" title="Extensions"></i></li>
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-puzzle4"></i> <span>Extensions</span></a>
@@ -939,13 +954,13 @@
 								<li class="nav-item"><a href="uploader_dropzone.html" class="nav-link">Dropzone</a></li>
 							</ul>
 						</li>
-						<li class="nav-item nav-item-submenu">
+						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
 							<a href="#" class="nav-link"><i class="icon-calendar3"></i> <span>Event calendars</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Event calendars">
 								<li class="nav-item"><a href="fullcalendar_views.html" class="nav-link">Basic views</a></li>
 								<li class="nav-item"><a href="fullcalendar_styling.html" class="nav-link">Event styling</a></li>
 								<li class="nav-item"><a href="fullcalendar_formats.html" class="nav-link">Language and time</a></li>
-								<li class="nav-item"><a href="fullcalendar_advanced.html" class="nav-link">Advanced usage</a></li>
+								<li class="nav-item"><a href="fullcalendar_advanced.html" class="nav-link active">Advanced usage</a></li>
 							</ul>
 						</li>
 						<li class="nav-item nav-item-submenu">
@@ -957,9 +972,11 @@
 								<li class="nav-item"><a href="internationalization_callbacks.html" class="nav-link">Callbacks</a></li>
 							</ul>
 						</li>
+					-->
 						<!-- /extensions -->
 
 						<!-- Tables -->
+						<!--
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Tables</div> <i class="icon-menu" title="Tables"></i></li>
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-table2"></i> <span>Basic tables</span></a>
@@ -1026,9 +1043,11 @@
 								<li class="nav-item"><a href="datatable_responsive.html" class="nav-link">Responsive data tables</a></li>
 							</ul>
 						</li>
+					-->
 						<!-- /tables -->
 
 						<!-- Page kits -->
+						<!--
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Page kits</div> <i class="icon-menu" title="Page kits"></i></li>
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-grid6"></i> <span>General pages</span></a>
@@ -1190,6 +1209,7 @@
 								<li class="nav-item"><a href="widgets_form.html" class="nav-link disabled">Form widgets <span class="badge bg-transparent align-self-center ml-auto">Coming soon</span></a></li>
 							</ul>
 						</li>
+					-->
 						<!-- /page kits -->
 
 					</ul>
@@ -1210,7 +1230,7 @@
 			<div class="page-header page-header-light">
 				<div class="page-header-content header-elements-md-inline">
 					<div class="page-title d-flex">
-						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Forms</span> - Input Groups</h4>
+						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">AGENDAR CITA</span> 
 						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
 					</div>
 
@@ -1227,8 +1247,8 @@
 					<div class="d-flex">
 						<div class="breadcrumb">
 							<a href="index.html" class="breadcrumb-item"><i class="icon-home2 mr-2"></i> Home</a>
-							<a href="form_input_groups.html" class="breadcrumb-item">Forms</a>
-							<span class="breadcrumb-item active">Input groups</span>
+							<a href="fullcalendar_advanced.html" class="breadcrumb-item">AGENDAR CITA</a>
+							
 						</div>
 
 						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
@@ -1265,10 +1285,10 @@
 			<!-- Content area -->
 			<div class="content">
 
-				<!-- Input group addons -->
+				<!-- External events -->
 				<div class="card">
 					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Input group addons</h5>
+						<h5 class="card-title">TUTORIAS</h5>
 						<div class="header-elements">
 							<div class="list-icons">
 		                		<a class="list-icons-item" data-action="collapse"></a>
@@ -1277,226 +1297,154 @@
 		                	</div>
 	                	</div>
 					</div>
-
+					
 					<div class="card-body">
-						<p class="mb-4">Extend form controls by adding text or buttons before, after, or on both sides of any text-based <code>&lt;input></code>. Use <code>.input-group</code> with an <code>.input-group-prepend</code> to prepend or <code>.input-group-append</code> to append elements to a single <code>.form-control</code>. Place one add-on or button on either side of an input. You may also place one on both sides of an input. While multiple <code>&lt;input></code>s are supported visually, validation styles are only available for input groups with a single <code>&lt;input></code>.</p>
+						<p class="mb-3">Agenda tu accesorias con tiempo y llena los campos correspondientes
 
-						<form action="#">
+
+							<form action="#">
 							<fieldset class="mb-3">
-								<legend class="text-uppercase font-size-sm font-weight-bold">Text addon</legend>
-
 								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Left text addon</label>
+									<label class="col-form-label col-lg-2">NOMBRE DEL ALUMNO</label>
 									<div class="col-lg-10">
 										<div class="input-group">
 											<span class="input-group-prepend">
-												<span class="input-group-text">@</span>
 											</span>
-											<input type="text" class="form-control" placeholder="Left addon">
+											<input type="text" class="form-control" placeholder="nombre completo">
 										</div>
 									</div>
 								</div>
 
 								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Multiple left addons</label>
+									<label class="col-form-label col-lg-2">MATRICULA</label>
 									<div class="col-lg-10">
 										<div class="input-group">
 											<span class="input-group-prepend">
-												<span class="input-group-text">$</span>
-												<span class="input-group-text">0.00</span>
+												
 											</span>
-											<input type="text" class="form-control" placeholder="Multiple left addons">
+											<input type="text" class="form-control" placeholder="ej.1930267">
 										</div>
 									</div>
 								</div>
 
 								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Right text addon</label>
+									<label class="col-form-label col-lg-2">CARRERA</label>
 									<div class="col-lg-10">
 										<div class="input-group">
-											<input type="text" class="form-control" placeholder="Right addon">
-											<span class="input-group-append">
-												<span class="input-group-text">%</span>
-											</span>
+											<input type="text" class="form-control" placeholder="carrera">
+											<span class="input-group-append">	</span>
 										</div>
 									</div>
 								</div>
 
 								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Multiple right addons</label>
+									<label class="col-form-label col-lg-2">FECHA DE LA TUTORIA</label>
 									<div class="col-lg-10">
 										<div class="input-group">
-											<input type="text" class="form-control" placeholder="Multiple right addons">
+											<input type="text" class="form-control" placeholder="fecha de la tutoria">
 											<span class="input-group-append">
-												<span class="input-group-text">$</span>
-												<span class="input-group-text">0.00</span>
+											
 											</span>
 										</div>
 									</div>
 								</div>
 
 								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Left and right text addons</label>
+									<label class="col-form-label col-lg-2">ID</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											</span>
+											<input type="text" class="form-control" placeholder="ID">
+											<span class="input-group-append">
+												
+											</span>
+										</div>
+									</div>
+								</div>
+							
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">NOMBRE DEL EMPLEADO</label>
 									<div class="col-lg-10">
 										<div class="input-group">
 											<span class="input-group-prepend">
-												<span class="input-group-text">$</span>
 											</span>
-											<input type="text" class="form-control" placeholder="Left and right addons">
+											<input type="text" class="form-control" placeholder="nombre completo">
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">MATRICULA</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<span class="input-group-prepend">
+												
+											</span>
+											<input type="text" class="form-control" placeholder="ej.1930267">
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">DEPARTAMENTO</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<input type="text" class="form-control" placeholder="carrera">
+											<span class="input-group-append">	</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">FECHA DE LA TUTORIA</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											<input type="text" class="form-control" placeholder="fecha de la tutoria">
 											<span class="input-group-append">
-												<span class="input-group-text">.00</span>
+											
+											</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">ID</label>
+									<div class="col-lg-10">
+										<div class="input-group">
+											</span>
+											<input type="text" class="form-control" placeholder="ID">
+											<span class="input-group-append">
+												
 											</span>
 										</div>
 									</div>
 								</div>
 							</fieldset>
-
-							<fieldset class="mb-3">
-								<legend class="text-uppercase font-size-sm font-weight-bold">Icon addon</legend>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Left icon addon</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<span class="input-group-prepend">
-												<span class="input-group-text"><i class="icon-user"></i></span>
-											</span>
-											<input type="text" class="form-control" placeholder="Left icon">
-										</div>
+<!--
+									<div class="form-check form-check-right form-check-switchery">
+										<label class="form-check-label">
+											<input type="checkbox" class="form-check-input-switchery" checked id="drop-remove" data-fouc>
+											Remove after drop
+										</label>
 									</div>
 								</div>
+							</div>
 
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Right icon addon</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<input type="text" class="form-control" placeholder="Right icon">
-											<span class="input-group-append">
-												<span class="input-group-text"><i class="icon-user"></i></span>
-											</span>
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Left and right icon addons</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<span class="input-group-prepend">
-												<span class="input-group-text"><i class="icon-menu6"></i></span>
-											</span>
-											<input type="text" class="form-control" placeholder="Left and right icons">
-											<span class="input-group-append">
-												<span class="input-group-text"><i class="icon-inbox"></i></span>
-											</span>
-										</div>
-									</div>
-								</div>
-							</fieldset>
-
-							<fieldset class="mb-3">
-								<legend class="text-uppercase font-size-sm font-weight-bold">Spinner addon</legend>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Left spinner addon</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<span class="input-group-prepend">
-												<span class="input-group-text"><i class="icon-spinner2 spinner"></i></span>
-											</span>
-											<input type="text" class="form-control" placeholder="Left spinner">
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Right spinner addon</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<input type="text" class="form-control" placeholder="Right spinner">
-											<span class="input-group-append">
-												<span class="input-group-text"><i class="icon-spinner2 spinner"></i></span>
-											</span>
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Left and right spinner addons</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<span class="input-group-prepend">
-												<span class="input-group-text"><i class="icon-spinner2 spinner"></i></span>
-											</span>
-											<input type="text" class="form-control" placeholder="Left and right spinners">
-											<span class="input-group-append">
-												<span class="input-group-text"><i class="icon-spinner9 spinner"></i></span>
-											</span>
-										</div>
-									</div>
-								</div>
-							</fieldset>
-
-							<fieldset>
-								<legend class="text-uppercase font-size-sm font-weight-bold">Color options</legend>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Contextual class</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<span class="input-group-prepend">
-												<span class="input-group-text bg-primary border-primary text-white">
-													<i class="icon-pin-alt"></i>
-												</span>
-											</span>
-											<input type="text" class="form-control border-left-0" placeholder="Primary addon">
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Custom color class</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<input type="text" class="form-control border-right-0" placeholder="Pink addon">
-											<span class="input-group-append">
-												<span class="input-group-text bg-pink border-pink text-white">
-													<i class="icon-help"></i>
-												</span>
-											</span>
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Color everything</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<span class="input-group-prepend">
-												<span class="input-group-text bg-slate-700 border-slate-700 text-white">
-													<i class="icon-lock2"></i>
-												</span>
-											</span>
-											<input type="text" class="form-control bg-slate text-white border-transparent" placeholder="Solid background color">
-											<span class="input-group-append">
-												<span class="input-group-text bg-slate-700 border-slate-700 text-white">
-													<i class="icon-help"></i>
-												</span>
-											</span>
-										</div>
-									</div>
-								</div>
-							</fieldset>
-						</form>
+							<div class="col-md-9">
+								<div class="fullcalendar-external"></div>
+							</div>
+						</div>
 					</div>
 				</div>
-				<!-- /input group addons -->
+			-->
+				<!-- /external events -->
 
 
-				<!-- Input group buttons -->
+				<!-- RTL layout -->
+				<!--
 				<div class="card">
 					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Input group buttons</h5>
+						<h5 class="card-title">RTL support</h5>
 						<div class="header-elements">
 							<div class="list-icons">
 		                		<a class="list-icons-item" data-action="collapse"></a>
@@ -1505,606 +1453,15 @@
 		                	</div>
 	                	</div>
 					</div>
-
+					
 					<div class="card-body">
-						<p class="mb-4">Optional buttons as addons. Buttons in input groups are a bit different and require one extra level of nesting. Instead of <code>.input-group-addon</code>, you'll need to use <code>.input-group-prepend (append)</code> to wrap the buttons. Input group buttons support all available button options except sizing - all buttons height will be adjusted automatically according to the input group size.</p>
+						<p class="mb-3">FullCalendar library also supports RTL text direction, useful for right-to-left languages such as Arabic and Hebrew. To display the calendar in right-to-left mode, set <code>dir</code> plugin option to <code>true</code>. This option switches class in calendar container to <code>.fc-rtl</code> and changes the layout accordingly to the specific css styles. RTL version supports all features and options available in LTR mode.</p>
 
-						<form action="#">
-							<fieldset class="mb-3">
-								<legend class="text-uppercase font-size-sm font-weight-bold">Button addons</legend>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Left button</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<span class="input-group-prepend">
-												<button class="btn btn-light" type="button">Button</button>
-											</span>
-											<input type="text" class="form-control" placeholder="Left button">
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Right button</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<input type="text" class="form-control" placeholder="Right button">
-											<span class="input-group-append">
-												<button class="btn btn-light" type="button">Button</button>
-											</span>
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Left and right buttons</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<span class="input-group-prepend">	
-												<button class="btn btn-light btn-icon" type="button"><i class="icon-user"></i></button>
-											</span>
-											<input type="text" class="form-control" placeholder="Left and right buttons">
-											<span class="input-group-append">
-												<button class="btn btn-light" type="button">Button</button>
-											</span>
-										</div>
-									</div>
-								</div>
-							</fieldset>
-
-							<fieldset class="mb-3">
-								<legend class="text-uppercase font-size-sm font-weight-bold">Button dropdown addons</legend>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Left button dropdown</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<div class="input-group-prepend">
-												<button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">Action</button>
-				                                <div class="dropdown-menu">
-													<a href="#" class="dropdown-item">Action</a>
-													<a href="#" class="dropdown-item">Another action</a>
-													<a href="#" class="dropdown-item">Something else here</a>
-													<a href="#" class="dropdown-item">One more line</a>
-												</div>
-											</div>
-											<input type="text" class="form-control" placeholder="Left dropdown">
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Right button dropdown</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<input type="text" class="form-control" placeholder="Right dropdown">
-											<div class="input-group-append">
-												<button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">Action</button>
-				                                <div class="dropdown-menu dropdown-menu-right">
-													<a href="#" class="dropdown-item">Action</a>
-													<a href="#" class="dropdown-item">Another action</a>
-													<a href="#" class="dropdown-item">Something else here</a>
-													<a href="#" class="dropdown-item">One more line</a>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Left and right button dropdowns</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<div class="input-group-prepend">
-												<button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">Action</button>
-				                                <div class="dropdown-menu">
-													<a href="#" class="dropdown-item">Action</a>
-													<a href="#" class="dropdown-item">Another action</a>
-													<a href="#" class="dropdown-item">Something else here</a>
-													<a href="#" class="dropdown-item">One more line</a>
-												</div>
-											</div>
-											<input type="text" class="form-control" placeholder="Left and right dropdowns">
-											<div class="input-group-append">
-												<button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">Action</button>
-				                                <div class="dropdown-menu dropdown-menu-right">
-													<a href="#" class="dropdown-item">Action</a>
-													<a href="#" class="dropdown-item">Another action</a>
-													<a href="#" class="dropdown-item">Something else here</a>
-													<a href="#" class="dropdown-item">One more line</a>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</fieldset>
-
-							<fieldset class="mb-3">
-								<legend class="text-uppercase font-size-sm font-weight-bold">Segmented button addons</legend>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Left button</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<div class="input-group-prepend">
-												<button type="button" class="btn btn-light">Action</button>
-												<button type="button" class="btn btn-light dropdown-toggle btn-icon" data-toggle="dropdown"></button>
-				                                <div class="dropdown-menu">
-													<a href="#" class="dropdown-item">Action</a>
-													<a href="#" class="dropdown-item">Another action</a>
-													<a href="#" class="dropdown-item">Something else here</a>
-													<a href="#" class="dropdown-item">One more line</a>
-												</div>
-											</div>
-											<input type="text" class="form-control" placeholder="Left buttons">
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Right button</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<input type="text" class="form-control" placeholder="Right buttons">
-											<div class="input-group-append">
-												<button type="button" class="btn btn-light">Action</button>
-												<button type="button" class="btn btn-light dropdown-toggle btn-icon" data-toggle="dropdown"></button>
-
-				                                <div class="dropdown-menu dropdown-menu-right">
-													<a href="#" class="dropdown-item">Action</a>
-													<a href="#" class="dropdown-item">Another action</a>
-													<a href="#" class="dropdown-item">Something else here</a>
-													<a href="#" class="dropdown-item">One more line</a>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Left and right buttons</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<div class="input-group-prepend">
-												<button type="button" class="btn btn-light">Button</button>
-												<button type="button" class="btn btn-light dropdown-toggle btn-icon" data-toggle="dropdown"></button>
-
-				                                <div class="dropdown-menu">
-													<a href="#" class="dropdown-item">Action</a>
-													<a href="#" class="dropdown-item">Another action</a>
-													<a href="#" class="dropdown-item">Something else here</a>
-													<a href="#" class="dropdown-item">One more line</a>
-												</div>
-											</div>
-
-											<input type="text" class="form-control" placeholder="Left and right buttons">
-
-											<div class="input-group-append">
-												<button type="button" class="btn btn-light btn-icon"><i class="icon-user"></i></button>
-												<button type="button" class="btn btn-light dropdown-toggle btn-icon" data-toggle="dropdown"></button>
-
-				                                <div class="dropdown-menu dropdown-menu-right">
-													<a href="#" class="dropdown-item">Action</a>
-													<a href="#" class="dropdown-item">Another action</a>
-													<a href="#" class="dropdown-item">Something else here</a>
-													<a href="#" class="dropdown-item">One more line</a>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</fieldset>
-
-							<fieldset>
-								<legend class="text-uppercase font-size-sm font-weight-bold">Color options</legend>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Contextual button</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<span class="input-group-prepend">
-												<button class="btn bg-danger" type="button">Button</button>
-											</span>
-											<input type="text" class="form-control border-left-0" placeholder="Danger button">
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Custom color button</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<input type="text" class="form-control border-right-0" placeholder="Teal button">
-											<span class="input-group-append">
-												<button class="btn bg-teal" type="button">Button</button>
-											</span>
-										</div>
-									</div>
-								</div>
-							</fieldset>
-						</form>
+						<div class="fullcalendar-rtl"></div>
 					</div>
 				</div>
-				<!-- /input group buttons -->
-
-
-				<!-- Input group options -->
-				<div class="card mb-4">
-					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Input group options</h5>
-						<div class="header-elements">
-							<div class="list-icons">
-		                		<a class="list-icons-item" data-action="collapse"></a>
-		                		<a class="list-icons-item" data-action="reload"></a>
-		                		<a class="list-icons-item" data-action="remove"></a>
-		                	</div>
-	                	</div>
-					</div>
-
-					<div class="card-body">
-						<p class="mb-4">Besides default addon options, input groups support different variations of checkboxes, radio buttons, switches, contextual validation state options, icons in different positions. All colors can be easily changed in LESS variables, options and positions also can be mixed. However avoid using <code>&lt;select></code> elements here as they cannot be fully styled in WebKit browsers and <code>&lt;textarea></code> elements here as their rows attribute will not be respected in some cases.</p>
-
-						<form action="#">
-							<fieldset class="mb-3">
-								<legend class="text-uppercase font-size-sm font-weight-bold">Sizing options</legend>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Large input group</label>
-									<div class="col-lg-10">
-										<div class="input-group input-group-lg">
-											<span class="input-group-prepend">
-												<span class="input-group-text"><i class="icon-mention"></i></span>
-											</span>
-											<input type="text" class="form-control" placeholder=".input-group-lg">
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Default input group</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<span class="input-group-prepend">
-												<span class="input-group-text"><i class="icon-git-pull-request"></i></span>
-											</span>
-											<input type="text" class="form-control" placeholder=".input-group">
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Small input group</label>
-									<div class="col-lg-10">
-										<div class="input-group input-group-sm">
-											<span class="input-group-prepend">
-												<span class="input-group-text"><i class="icon-statistics"></i></span>
-											</span>
-											<input type="text" class="form-control" placeholder=".input-group-sm">
-										</div>
-									</div>
-								</div>
-							</fieldset>
-
-							<fieldset class="mb-3">
-								<legend class="text-uppercase font-size-sm font-weight-bold">Validation states</legend>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2 font-weight-semibold text-success">Valid state</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<span class="input-group-prepend">
-												<span class="input-group-text alpha-success text-success border-success"><i class="icon-comment"></i></span>
-											</span>
-											<input type="text" class="form-control border-success" placeholder="Success color classes">
-										</div>
-										<span class="form-text text-success">Success state helper</span>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2 font-weight-semibold text-danger">Invalid state</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<span class="input-group-prepend">
-												<span class="input-group-text alpha-danger text-danger border-danger"><i class="icon-graph"></i></span>
-											</span>
-											<input type="text" class="form-control border-danger" placeholder="Danger color classes">
-										</div>
-										<span class="form-text text-danger">Invalid state helper</span>
-									</div>
-								</div>
-
-								<div class="form-group form-group-feedback form-group-feedback-right row">
-									<label class="col-form-label col-lg-2 font-weight-semibold text-success">Valid with icon</label>
-									<div class="col-lg-10">
-										<div class="position-relative">
-											<div class="input-group">
-												<span class="input-group-prepend">
-													<span class="input-group-text alpha-success text-success border-success"><i class="icon-graduation"></i></span>
-												</span>
-												<input type="text" class="form-control border-success" placeholder="Success color classes">
-											</div>
-											<div class="form-control-feedback text-success">
-												<i class="icon-checkmark-circle"></i>
-											</div>
-										</div>
-										<span class="form-text text-success">Valid state helper</span>
-									</div>
-								</div>
-
-								<div class="form-group form-group-feedback form-group-feedback-right row">
-									<label class="col-form-label col-lg-2 font-weight-semibold text-danger">Invalid with icon</label>
-									<div class="col-lg-10">
-										<div class="position-relative">
-											<div class="input-group">
-												<span class="input-group-prepend">
-													<span class="input-group-text alpha-danger text-danger border-danger"><i class="icon-droplets"></i></span>
-												</span>
-												<input type="text" class="form-control border-danger" placeholder="Danger color classes">
-											</div>
-											<div class="form-control-feedback text-danger">
-												<i class="icon-cancel-circle2"></i>
-											</div>
-										</div>
-										<span class="form-text text-danger">Error input group helper</span>
-									</div>
-								</div>
-							</fieldset>
-
-							<fieldset>
-								<legend class="text-uppercase font-size-sm font-weight-bold">Addon options</legend>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Default checkbox</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<span class="input-group-prepend">
-												<span class="input-group-text">
-													<input type="checkbox" checked>
-												</span>
-											</span>
-											<input type="text" class="form-control" placeholder="Default checkbox addon">
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Styled checkbox</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<span class="input-group-prepend">
-												<div class="input-group-text">
-													<input type="checkbox" class="form-control-styled" name="input-addon-checkbox" checked data-fouc>
-												</div>
-											</span>
-											<input type="text" class="form-control" placeholder="Styled checkbox addon">
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Default radio button</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<span class="input-group-prepend">
-												<span class="input-group-text">
-													<input type="radio" name="addon-radio">
-												</span>
-											</span>
-											<input type="text" class="form-control" placeholder="Unstyled radio addon">
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Styled radio button</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<span class="input-group-prepend">
-												<div class="input-group-text">
-													<input type="radio" name="addon-radio" class="form-control-styled" checked data-fouc>
-												</div>
-											</span>
-											<input type="text" class="form-control" placeholder="Styled radio addon">
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Switchery toggle</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<span class="input-group-prepend">
-												<span class="input-group-text">
-													<input type="checkbox" class="form-control-switchery" checked data-fouc>
-												</span>
-											</span>
-											<input type="text" class="form-control" placeholder="Switchery toggle addon">
-										</div>
-									</div>
-								</div>
-							</fieldset>
-						</form>
-					</div>
-				</div>
-				<!-- /input group options -->
-
-
-				<!-- Touchspin spinners -->
-				<div class="mb-3">
-					<h6 class="mb-0 font-weight-semibold">
-						Touchspin spinners
-					</h6>
-					<span class="text-muted d-block">Touch friendly input spinner component</span>
-				</div>
-
-				<div class="row">
-					<div class="col-md-6">
-						<div class="card">
-							<div class="card-header header-elements-inline">
-								<h5 class="card-title">Bootstrap touchspin</h5>
-								<div class="header-elements">
-									<div class="list-icons">
-				                		<a class="list-icons-item" data-action="collapse"></a>
-				                		<a class="list-icons-item" data-action="reload"></a>
-				                		<a class="list-icons-item" data-action="remove"></a>
-				                	</div>
-			                	</div>
-							</div>
-
-							<div class="card-body">
-								<p class="mb-3">Basically Touchspin uses default Bootstrap <code>input-group</code> component styling with ability to add extra classes to the buttons and addons to match your design perfectly.</p>
-
-								<div class="form-group">
-									<label>Example with postfix: </label>
-									<input type="text" value="55" class="form-control touchspin-postfix">
-								</div>
-
-								<div class="form-group">
-									<label>Example with prefix: </label>
-									<input type="text" value="0" class="form-control touchspin-prefix">
-								</div>
-
-								<div class="form-group">
-									<label>Init with empty value: </label>
-									<input type="text" value="" class="form-control touchspin-empty">
-								</div>
-
-								<div class="form-group">
-									<label>Incremental/decremental step on up/down change: </label>
-									<input type="text" value="10" class="form-control touchspin-step">
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-6">
-						<div class="card">
-							<div class="card-header header-elements-inline">
-								<h5 class="card-title">Advanced spinners</h5>
-								<div class="header-elements">
-									<div class="list-icons">
-				                		<a class="list-icons-item" data-action="collapse"></a>
-				                		<a class="list-icons-item" data-action="reload"></a>
-				                		<a class="list-icons-item" data-action="remove"></a>
-				                	</div>
-			                	</div>
-							</div>
-
-							<div class="card-body">
-								<p class="mb-3">Depending on your needs, you can easily swith off mousewheel support, change steps and increments, use more complex examples with button groups and dropdowns.</p>
-
-								<div class="form-group">
-									<label>Button group example</label>
-									<div class="input-group">
-							            <input type="text" class="form-control touchspin-button-group" value="50">
-							            <div class="input-group-append">
-							                <button type="button" class="btn bg-primary">Action</button>
-							                <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown"></button>
-							                <div class="dropdown-menu dropdown-menu-right">
-							                    <a href="#" class="dropdown-item">Action</a>
-							                    <a href="#" class="dropdown-item">Another action</a>
-							                    <a href="#" class="dropdown-item">Something else here</a>
-							                    <div class="dropdown-divider"></div>
-							                    <a href="#" class="dropdown-item">Separated link</a>
-							                </div>
-							            </div>
-							        </div>
-								</div>
-
-								<div class="form-group">
-									<label>Value attribute is not set: <span class="text-muted">applying settings.initval</span></label>
-									<input type="text" value="" class="form-control touchspin-set-value">
-								</div>
-
-								<div class="form-group">
-									<label>Value is set explicitly to 33: <span class="text-muted">skipping settings.initval</span></label>
-									<input type="text" value="33" class="form-control touchspin-set-value">
-								</div>
-
-								<div class="form-group">
-									<label>No mousewheel support: </label>
-									<input type="text" value="10" class="form-control touchspin-no-mousewheel">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- /touchspin spinners -->
-
-
-				<!-- Touchspin layouts -->
-				<div class="row">
-					<div class="col-md-6">
-						<div class="card">
-							<div class="card-header header-elements-inline">
-								<h5 class="card-title">Horizontal spinners</h5>
-								<div class="header-elements">
-									<div class="list-icons">
-				                		<a class="list-icons-item" data-action="collapse"></a>
-				                		<a class="list-icons-item" data-action="reload"></a>
-				                		<a class="list-icons-item" data-action="remove"></a>
-				                	</div>
-			                	</div>
-							</div>
-
-							<div class="card-body">
-								<p class="mb-3">Touchspin supports default Bootstrap <code>input-group</code> component sizing classes, applied to the input or wrapped in <code>div</code> with these classes.</p>
-
-								<div class="form-group">
-									<label>Large spinner</label>
-									<input type="text" value="55" class="form-control form-control-lg touchspin-basic">
-								</div>
-
-								<div class="form-group">
-									<label>Default spinner</label>
-									<input type="text" value="55" class="form-control touchspin-basic">
-								</div>
-
-								<div class="form-group">
-									<label>Small spinner</label>
-									<input type="text" value="55" class="form-control form-control-sm touchspin-basic">
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-6">
-						<div class="card">
-							<div class="card-header header-elements-inline">
-								<h5 class="card-title">Vertical spinners</h5>
-								<div class="header-elements">
-									<div class="list-icons">
-				                		<a class="list-icons-item" data-action="collapse"></a>
-				                		<a class="list-icons-item" data-action="reload"></a>
-				                		<a class="list-icons-item" data-action="remove"></a>
-				                	</div>
-			                	</div>
-							</div>
-
-							<div class="card-body">
-								<p class="mb-3">Also Touchspin library supports <code>vertical</code> spinner controls orientation, that appear on the right side. Buttons and icons are fully customizable.</p>
-
-								<div class="form-group">
-									<label>Large spinner</label>
-									<input type="text" value="55" class="form-control form-control-lg touchspin-vertical">
-								</div>
-
-								<div class="form-group">
-									<label>Default spinner</label>
-									<input type="text" value="55" class="form-control touchspin-vertical">
-								</div>
-
-								<div class="form-group">
-									<label>Small spinner</label>
-									<input type="text" value="55" class="form-control form-control-sm touchspin-vertical">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- /touchspin layouts -->
+			-->
+				<!-- /RTL layout -->
 
 			</div>
 			<!-- /content area -->
@@ -2134,7 +1491,7 @@
 			<!-- /footer -->
 
 		</div>
-		<!-- /content wrapper -->
+		<!-- /main content -->
 
 	</div>
 	<!-- /page content -->

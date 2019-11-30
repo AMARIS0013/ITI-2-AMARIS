@@ -459,7 +459,7 @@
 							<a href="#" class="nav-link"><i class="icon-brain"></i> <span>TUTORIAS</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Basic tables">
 								<li class="nav-item"><a href="handsontable_types.php" class="nav-link">LISTADO</a></li>
-								<li class="nav-item"><a href="fullcalendar_advanced.php" class="nav-link">php</a></li>
+								<li class="nav-item"><a href="fullcalendar_advanced.php" class="nav-link">AGENDAR</a></li>
 								<li class="nav-item nav-item-submenu">
 							</ul>
 						</li>

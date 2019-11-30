@@ -2008,7 +2008,7 @@
 								<div class="btn-group">
 			                    	<button type="button" class="btn bg-teal-400 btn-labeled btn-labeled-left dropdown-toggle" data-toggle="dropdown"><b><i class="icon-add"></i></b>Solicitud</button>
 			                    	<div class="dropdown-menu dropdown-menu-right">
-										<a href="fullcalendar_advanced.php" class="dropdown-item"><i class="icon-pencil"></i> Llenarla</a>
+										<a href="table_sizing.php" class="dropdown-item"><i class="icon-pencil"></i> Llenarla</a>
 										
 									</div>
 								</div>
